@@ -1,7 +1,21 @@
 {
-  "done": [],
+  "done": [
+    0,
+    1
+  ],
   "revisits": {},
-  "last_session_day": null,
-  "day_number": 0,
-  "recent": []
+  "last_session_day": "2026-07-27",
+  "day_number": 1,
+  "recent": [
+    {
+      "date": "2026-07-27",
+      "name": "Largest Element in an Array",
+      "step": 3
+    },
+    {
+      "date": "2026-07-27",
+      "name": "Second Largest Element in an Array without sorting",
+      "step": 3
+    }
+  ]
 }
