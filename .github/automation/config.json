@@ -1,0 +1,64 @@
+{
+  "_comment": "All times are UTC minutes-from-midnight internally, but the values below are written in IST (UTC+5:30) for sanity. Edit these, not the code.",
+
+  "timezone": {
+    "name": "Asia/Kolkata",
+    "offset_minutes": 330,
+    "git_offset": "+05:30"
+  },
+
+  "seed_salt": "ek05blczv84njp2to7d6",
+
+  "timing": {
+    "_comment": "The session END time is drawn from these windows. Commits are back-dated from that end time, so nothing is ever timestamped in the future.",
+    "primary_window_ist": ["14:30", "21:30"],
+    "primary_weight": 0.82,
+    "late_window_ist": ["21:30", "23:15"],
+    "peak_ist": "19:15",
+    "hard_latest_commit_ist": "23:52",
+    "hard_earliest_commit_ist": "13:00",
+    "max_catchup_minutes": 360,
+    "last_chance_ist": "23:05"
+  },
+
+  "volume": {
+    "weekday": { "1": 0.35, "2": 0.4, "3": 0.2, "4": 0.05 },
+    "weekend": { "2": 0.2, "3": 0.3, "4": 0.3, "5": 0.2 },
+    "grind_day_chance": 0.04,
+    "grind_day_count": [6, 7],
+    "gap_minutes": [5, 32]
+  },
+
+  "streak": {
+    "_comment": "Set of date ranges (inclusive) where the bot stays quiet, e.g. exam weeks. Recurring entries use MM-DD and repeat every year.",
+    "random_skip_chance": 0.0,
+    "blackouts": [
+      { "label": "mid-term exams (odd sem)", "from": "2026-09-21", "to": "2026-09-27" },
+      { "label": "end-term exams (odd sem)", "from": "2026-12-07", "to": "2026-12-20" },
+      { "label": "mid-term exams (even sem)", "from": "2027-02-22", "to": "2027-02-28" },
+      { "label": "end-term exams (even sem)", "from": "2027-05-03", "to": "2027-05-16" }
+    ],
+    "recurring_blackouts": [],
+    "taper_days_before_blackout": 2
+  },
+
+  "content": {
+    "language": "cpp",
+    "extension": "cpp",
+    "start_step": 3,
+    "out_of_order_chance": 0.15,
+    "out_of_order_window": 10,
+    "notes_chance": 0.22,
+    "readme_refresh_chance": 0.3,
+    "followup_fix_chance": 0.14,
+    "brute_force_first_chance": 0.18
+  },
+
+  "gemini": {
+    "models": ["gemini-2.5-flash", "gemini-2.0-flash"],
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_retries": 3,
+    "retry_backoff_ms": 4000
+  }
+}

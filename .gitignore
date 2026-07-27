@@ -1,0 +1,11 @@
+# Kept local on purpose - a setup guide for the bot sitting in the repo root
+# rather defeats the point. Keep your own copy outside the working tree.
+SETUP.md
+
+node_modules/
+.env
+*.log
+.DS_Store
+a.out
+*.exe
+.vscode/

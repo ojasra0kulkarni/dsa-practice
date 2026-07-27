@@ -1,0 +1,53 @@
+name: practice
+
+# Probes twice an hour across the whole allowed window. Almost every run
+# exits in ~15 seconds after deciding "not yet" — only the probe that lands
+# at or just after the day's randomly drawn session-end time does the work.
+on:
+  schedule:
+    - cron: '7,37 8-19 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Ignore the schedule gate and run right now'
+        type: boolean
+        default: false
+      dry_run:
+        description: 'Generate files and print commits, but do not commit or push'
+        type: boolean
+        default: false
+
+concurrency:
+  group: practice
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  practice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Identify as the repo owner
+        run: |
+          git config user.name  "${{ vars.GIT_USER_NAME }}"
+          git config user.email "${{ vars.GIT_USER_EMAIL }}"
+
+      - name: Session
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          FLAGS=""
+          if [ "${{ inputs.force }}" = "true" ]; then FLAGS="$FLAGS --force"; fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then FLAGS="$FLAGS --dry-run"; fi
+          node .github/automation/run.mjs $FLAGS
