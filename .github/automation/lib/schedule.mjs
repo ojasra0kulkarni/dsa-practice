@@ -59,7 +59,7 @@ export function planDay(dayKey, config) {
   // --- how many problems ------------------------------------------------
   const dow = istWeekday(dayKey, endMinute);
   const isWeekend = dow === 0 || dow === 6;
-  let count = rng.weighted(isWeekend ? config.volume.weekend : config.volume.weekday);
+  let count = Number(rng.weighted(isWeekend ? config.volume.weekend : config.volume.weekday));
 
   if (isWeekend && rng.chance(config.volume.grind_day_chance)) {
     const [gLo, gHi] = config.volume.grind_day_count;

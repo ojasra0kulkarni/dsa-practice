@@ -21,41 +21,99 @@ function buildPrompt(problem, persona, cfg) {
   rewrite. Add one short comment acknowledging the earlier attempt, in passing, not as a banner.\n`
     : '';
 
-  return `You are writing a C++ solution file for a personal DSA practice repository.
-${revisionNote}
+  const commentBudget = {
+    none: 'ZERO comments. Not one. The code stands alone.',
+    one: 'Exactly ONE short comment, on the single least obvious line. Nothing else.',
+    two: 'At most TWO short comments, total.',
+    few: 'At most THREE short comments, total.',
+  }[persona.comments];
 
-The repo belongs to a third-year B.Tech CSE student in India who is working through
-Striver's A2Z DSA sheet for placement prep. You are writing AS that student, in their
-editor, at the moment they solved it. This is a practice file, not a library and not a
-teaching resource.
+  return `Write a C++ file the way a real student writes it in their own practice repo.
+${revisionNote}
+The author is a third-year B.Tech CSE student in India grinding Striver's A2Z sheet for
+placements. They write like a competitive programmer: fast, terse, unpolished. This file
+is scratch work they will never show anyone. It is NOT a tutorial, NOT documentation,
+NOT a portfolio piece.
 
 PROBLEM
-  Step ${problem.step} - ${problem.stepTitle}
-  Section: ${problem.section}
-  Problem: ${problem.name}
+  Step ${problem.step} - ${problem.stepTitle} (${problem.section})
+  ${problem.name}
 
-TODAY'S WRITING STYLE (follow these, they vary day to day on purpose)
-  - Mood: ${persona.mood}
-  - Comment density: ${persona.verbosity}
-${persona.quirks.map((q) => `  - Habit: ${q}`).join('\n')}
-${persona.includeMain ? '  - Include a small main() at the bottom that runs one hardcoded test case.' : '  - Do NOT include a main() function; just the solution class/function.'}
+THE #1 RULE: SHORT VARIABLE NAMES
+Competitive programmers do not write descriptive names. They write one to three
+characters. Use these and nothing longer:
+  n, m, i, j, k, x, y, a, b, arr, v, s, ans, mx, mn, cnt, sum, temp, tmp, idx,
+  l, r, lo, hi, mid, st, en, mp, st, pq, dp, vis, adj, res, curr, prev, node, head
+BANNED - these instantly read as machine-written:
+  maxElement, currentIndex, resultArray, numsSize, leftPointer, tempVariable,
+  maximumValue, isFound, countOfElements, previousNode, currentSum, targetSum
+If you catch yourself writing two words joined together, cut it to an abbreviation.
 
-HARD RULES
-  - Output the file contents only, in the "code" field. No markdown fences, no backticks.
-  - Start with #include <bits/stdc++.h> and using namespace std; (that is what this student does).
-  - The solution must be genuinely correct and actually compile. Correctness is not negotiable.
-  - Use the standard LeetCode/GFG signature for this problem where one exists
-    (e.g. class Solution { public: ... };). If the problem has no standard judge signature,
-    write a clean standalone function.
-  - Comments must sound like a student talking to themselves: short, lowercase-ish,
-    sometimes fragments. Never write documentation-style comment blocks.
-  - Do NOT write a header banner with the problem link, difficulty, date, or author.
-    At most one short line naming the problem, and only sometimes.
-  - Do NOT use emoji. Do NOT use section-divider comments made of ===== or -----.
-  - Do NOT explain what a for loop does. Explain only the non-obvious step.
-  - Total comment lines should be roughly ${persona.verbosity === 'sparse' ? '0 to 3' : persona.verbosity === 'chatty' ? '5 to 9' : '2 to 5'}.
+COMMENTS
+  ${commentBudget}
+  A comment, if any, is lowercase, under 8 words, no full stop, and explains only the
+  ONE thing that is not obvious from reading the code. Fragments are fine.
+  Good: // two pointer from both ends
+  Good: // mid overflow
+  Good: // 1-indexed here
+  BANNED: "// Function to find the maximum element in the array"
+  BANNED: "// Initialize variables"  "// Traverse the array"  "// Return the result"
+  BANNED: any comment restating what the next line literally does.
+  BANNED: header banners, ====== dividers, @param/@return, /** */ doc blocks.
 
-Write the file now.`;
+SPACING
+  ${persona.spacing.desc}
+  Hold this style consistently through the whole file.
+
+TODAY'S HABITS
+  - ${persona.mood}
+${persona.quirks.map((q) => `  - ${q}`).join('\n')}
+${persona.includeMain ? '  - Add a tiny main() at the bottom with one hardcoded test case.' : '  - No main(). Just the solution class/function.'}
+
+STRUCTURE
+  - Open with #include <bits/stdc++.h> then using namespace std;
+  - Use the standard judge signature where one exists (class Solution { public: ... };).
+    Otherwise a plain standalone function.
+  - No complexity analysis block. If you mention complexity at all, it is one terse
+    trailing line like "// O(n) time O(1) space" and usually you skip even that.
+  - Do not add extra blank lines to make it look organised.
+
+CORRECTNESS IS NOT NEGOTIABLE. Terse does not mean wrong - it must compile and be right.
+
+Here is the exact difference you are aiming for.
+
+WRONG - obviously machine-written:
+class Solution {
+public:
+    // Function to find the largest element in the array
+    int largestElement(vector<int>& nums) {
+        // Initialize the maximum with the first element
+        int maxElement = nums[0];
+        // Traverse the array to find the maximum
+        for (int index = 1; index < nums.size(); index++) {
+            if (nums[index] > maxElement) {
+                maxElement = nums[index];
+            }
+        }
+        // Return the result
+        return maxElement;
+    }
+};
+
+RIGHT - how the student actually writes it:
+class Solution {
+public:
+    int largest(vector<int> &arr) {
+        int n = arr.size();
+        int mx = arr[0];
+        for(int i=1;i<n;i++){
+            if(arr[i]>mx) mx=arr[i];
+        }
+        return mx;
+    }
+};
+
+Output the file contents only in the "code" field. No markdown fences, no backticks.`;
 }
 
 function extractJson(data) {

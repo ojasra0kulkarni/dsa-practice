@@ -105,40 +105,54 @@ export function readmeMessage(rng) {
 
 /**
  * A per-day style persona handed to the model. Same author, different day,
- * different mood - which is exactly how a real person's files drift.
+ * slightly different habits - which is how one person's files actually drift.
+ * The defaults lean hard toward terse, because verbose tidy code is the single
+ * biggest giveaway that a model wrote it.
  */
 const QUIRKS = [
-  'you use a `typedef long long ll;` at the top out of habit',
-  'you name your loop counters i, j, k and nothing else',
-  'you leave one commented-out `// cout << ... ` debug line you used while testing',
-  'you write the brute force idea as a one-line comment above the optimal one',
-  'you use `#define pb push_back` even when you only call it twice',
-  'you put the complexity comment at the very bottom of the file',
-  'you put the complexity comment right above the function',
-  'you use `vector<int>&nums` with no space after the ampersand',
-  'you write slightly terse comments, lowercase, no full stops',
-  'you occasionally write a comment that is just `// tricky part`',
-  'you prefer `int n = nums.size();` on its own line before any loop',
-  'you write a tiny `main()` at the bottom to test with one hardcoded case',
-  'you skip comments almost entirely on problems you found easy',
-  'you use `auto` for iterators but plain types everywhere else',
+  'you `typedef long long ll;` at the top out of habit, whether or not you use it',
+  'you `#define pb push_back` at the top',
+  'you leave one commented-out `// cout<<ans<<endl;` debug line from testing',
+  'you declare `int n = arr.size();` on its own line before any loop, always',
+  'you reuse `temp` for two unrelated things in the same function',
+  'you write single-statement ifs on one line, like `if(a>mx) mx=a;`',
+  'you use `auto` only for iterators, plain types everywhere else',
+  'you leave one stray blank line at the end of the function body',
+  'you write `vector<int>&arr` with no space around the ampersand',
+  'you sometimes drop braces on a one-line for body',
 ];
 
 const MOODS = [
-  'in a hurry, so the code is correct but sparse on comments',
-  'relaxed, so you explain your reasoning in two or three short comments',
-  'slightly frustrated - this one took a few attempts',
-  'confident, this pattern is familiar by now',
-  'careful, because you got the edge cases wrong the first time',
+  'in a hurry - correct, zero ceremony',
+  'this pattern is familiar by now, so you barely think about it',
+  'this one took a couple of tries, so the code is a bit patched-together',
+  'straightforward problem, you typed it out in one go',
+];
+
+/** Two competing brace/spacing habits. Pick one per file and hold it. */
+const SPACING = [
+  {
+    name: 'tight',
+    desc: 'no spaces around operators or in for-headers: `for(int i=0;i<n;i++)`, `if(arr[i]>mx)`, `int mx=arr[0];`. Opening brace on the same line, sometimes omitted for one-liners.',
+  },
+  {
+    name: 'tight',
+    desc: 'no spaces around operators or in for-headers: `for(int i=0;i<n;i++)`, `if(arr[i]>mx)`, `int mx=arr[0];`. Opening brace on the same line, sometimes omitted for one-liners.',
+  },
+  {
+    name: 'loose',
+    desc: 'spaces around operators but still compact: `for (int i = 0; i < n; i++)`, `int mx = arr[0];`. Opening brace on the same line.',
+  },
 ];
 
 export function persona(rng) {
-  const picks = rng.shuffle(QUIRKS).slice(0, rng.int(2, 3));
   return {
-    quirks: picks,
+    quirks: rng.shuffle(QUIRKS).slice(0, rng.int(1, 2)),
     mood: rng.pick(MOODS),
-    verbosity: rng.pick(['sparse', 'normal', 'normal', 'chatty']),
-    includeMain: rng.chance(0.22),
+    spacing: rng.pick(SPACING),
+    // weighted hard toward none: a practice file is not documentation
+    comments: rng.weighted({ none: 0.45, one: 0.35, two: 0.15, few: 0.05 }),
+    includeMain: rng.chance(0.15),
   };
 }
 

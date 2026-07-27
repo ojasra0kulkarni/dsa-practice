@@ -45,16 +45,16 @@ export function makeRng(...parts) {
         : hi - Math.sqrt((1 - u) * (hi - lo) * (hi - peak));
     },
 
-    /** weights: { "1": 0.35, "2": 0.4, ... } -> returns a key (as Number). */
+    /** weights: { a: 0.35, b: 0.4, ... } -> returns the key, as written. */
     weighted: (weights) => {
       const entries = Object.entries(weights);
       const total = entries.reduce((s, [, w]) => s + w, 0);
       let r = next() * total;
       for (const [k, w] of entries) {
         r -= w;
-        if (r <= 0) return Number(k);
+        if (r <= 0) return k;
       }
-      return Number(entries[entries.length - 1][0]);
+      return entries[entries.length - 1][0];
     },
 
     shuffle: (arr) => {
