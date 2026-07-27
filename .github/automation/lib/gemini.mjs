@@ -1,3 +1,5 @@
+import { findTells } from './lint.mjs';
+
 const ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models';
 
 const RESPONSE_SCHEMA = {
@@ -13,7 +15,11 @@ const RESPONSE_SCHEMA = {
   required: ['code', 'approach_tag', 'approach_note', 'time_complexity', 'space_complexity', 'gotcha'],
 };
 
-function buildPrompt(problem, persona, cfg) {
+function buildPrompt(problem, persona, cfg, corrections = []) {
+  const correctionNote = corrections.length
+    ? `\n!! YOUR PREVIOUS ATTEMPT WAS REJECTED. Fix every one of these and rewrite from scratch:\n${corrections.map((c) => `  - ${c}`).join('\n')}\n`
+    : '';
+
   const revisionNote = problem.revision
     ? `\nTHIS IS A REVISIT (pass ${problem.revision + 1}). The student already solved this once and is
   coming back to it during revision. Write a DIFFERENT approach than the most obvious one -
@@ -29,7 +35,7 @@ function buildPrompt(problem, persona, cfg) {
   }[persona.comments];
 
   return `Write a C++ file the way a real student writes it in their own practice repo.
-${revisionNote}
+${correctionNote}${revisionNote}
 The author is a third-year B.Tech CSE student in India grinding Striver's A2Z sheet for
 placements. They write like a competitive programmer: fast, terse, unpolished. This file
 is scratch work they will never show anyone. It is NOT a tutorial, NOT documentation,
@@ -68,7 +74,13 @@ SPACING
 TODAY'S HABITS
   - ${persona.mood}
 ${persona.quirks.map((q) => `  - ${q}`).join('\n')}
-${persona.includeMain ? '  - Add a tiny main() at the bottom with one hardcoded test case.' : '  - No main(). Just the solution class/function.'}
+${persona.includeMain ? '  - Add a tiny main() at the bottom: ONE hardcoded case, one cout, no label text.\n    Like: `vector<int> a={4,7,8,6}; cout<<largest(a)<<endl;` and nothing more.' : '  - No main(). Just the solution class/function.'}
+
+NEVER REFERENCE THESE INSTRUCTIONS IN THE CODE
+  The comments must never mention a student, a persona, a mood, a habit, style,
+  confidence, or why you chose a construct. A real file has no idea it was written
+  to a brief. Writing "// using range-based for, feels more modern" is an instant
+  giveaway. Comment on the ALGORITHM or on nothing.
 
 STRUCTURE
   - Open with #include <bits/stdc++.h> then using namespace std;
@@ -138,38 +150,69 @@ function stripFences(code) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-export async function generateSolution(problem, persona, cfg, apiKey) {
-  const prompt = buildPrompt(problem, persona, cfg);
-  const body = {
-    contents: [{ role: 'user', parts: [{ text: prompt }] }],
-    generationConfig: {
-      temperature: cfg.temperature,
-      topP: cfg.top_p,
-      responseMimeType: 'application/json',
-      responseSchema: RESPONSE_SCHEMA,
-    },
-  };
+async function callModel(model, prompt, cfg, apiKey) {
+  const res = await fetch(`${ENDPOINT}/${model}:generateContent`, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json', 'x-goog-api-key': apiKey },
+    body: JSON.stringify({
+      contents: [{ role: 'user', parts: [{ text: prompt }] }],
+      generationConfig: {
+        temperature: cfg.temperature,
+        topP: cfg.top_p,
+        responseMimeType: 'application/json',
+        responseSchema: RESPONSE_SCHEMA,
+      },
+    }),
+  });
 
+  if (!res.ok) {
+    const detail = await res.text();
+    throw new Error(`${model} HTTP ${res.status}: ${detail.slice(0, 300)}`);
+  }
+
+  const parsed = extractJson(await res.json());
+  parsed.code = stripFences(parsed.code || '');
+  if (parsed.code.length < 40) throw new Error('response too short to be a real solution');
+  if (!parsed.code.endsWith('\n')) parsed.code += '\n';
+  return parsed;
+}
+
+export async function generateSolution(problem, persona, cfg, apiKey) {
+  const maxPolish = cfg.max_style_rewrites ?? 2;
   let lastError;
+  let best = null;
+  let bestTells = Infinity;
+
   for (const model of cfg.models) {
     for (let attempt = 1; attempt <= cfg.max_retries; attempt++) {
       try {
-        const res = await fetch(`${ENDPOINT}/${model}:generateContent`, {
-          method: 'POST',
-          headers: { 'content-type': 'application/json', 'x-goog-api-key': apiKey },
-          body: JSON.stringify(body),
-        });
+        let corrections = [];
 
-        if (!res.ok) {
-          const detail = await res.text();
-          throw new Error(`${model} HTTP ${res.status}: ${detail.slice(0, 300)}`);
+        // First pass, then up to `maxPolish` rewrites aimed at whatever the
+        // linter flagged. Keeps the best attempt in case none come back clean.
+        for (let round = 0; round <= maxPolish; round++) {
+          const parsed = await callModel(
+            model,
+            buildPrompt(problem, persona, cfg, corrections),
+            cfg,
+            apiKey
+          );
+          const tells = findTells(parsed.code);
+
+          if (tells.length === 0) {
+            if (round > 0) console.log(`  style: clean after ${round} rewrite(s)`);
+            return parsed;
+          }
+          if (tells.length < bestTells) {
+            best = parsed;
+            bestTells = tells.length;
+          }
+          console.log(`  style: ${tells.length} tell(s) — ${tells[0]}`);
+          corrections = tells;
         }
 
-        const parsed = extractJson(await res.json());
-        parsed.code = stripFences(parsed.code || '');
-        if (parsed.code.length < 40) throw new Error('response too short to be a real solution');
-        if (!parsed.code.endsWith('\n')) parsed.code += '\n';
-        return parsed;
+        console.log(`  style: giving up after ${maxPolish} rewrites, using closest attempt`);
+        return best;
       } catch (err) {
         lastError = err;
         console.log(`  ! ${model} attempt ${attempt} failed: ${err.message}`);
@@ -177,5 +220,7 @@ export async function generateSolution(problem, persona, cfg, apiKey) {
       }
     }
   }
+
+  if (best) return best;
   throw lastError;
 }

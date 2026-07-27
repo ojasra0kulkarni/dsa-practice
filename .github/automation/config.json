@@ -59,6 +59,7 @@
     "temperature": 1.0,
     "top_p": 0.95,
     "max_retries": 3,
-    "retry_backoff_ms": 4000
+    "retry_backoff_ms": 4000,
+    "max_style_rewrites": 2
   }
 }
