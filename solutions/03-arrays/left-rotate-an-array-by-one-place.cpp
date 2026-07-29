@@ -14,3 +14,5 @@ public:
         arr[n-1] = tmp;
     }
 };
+
+// edge case: empty input handled above
