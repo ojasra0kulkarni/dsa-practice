@@ -3,11 +3,13 @@
     0,
     1,
     2,
-    3
+    3,
+    4,
+    5
   ],
   "revisits": {},
-  "last_session_day": "2026-07-28",
-  "day_number": 2,
+  "last_session_day": "2026-07-29",
+  "day_number": 3,
   "recent": [
     {
       "date": "2026-07-27",
@@ -27,6 +29,16 @@
     {
       "date": "2026-07-28",
       "name": "Remove duplicates from Sorted array",
+      "step": 3
+    },
+    {
+      "date": "2026-07-29",
+      "name": "Left Rotate an array by one place",
+      "step": 3
+    },
+    {
+      "date": "2026-07-29",
+      "name": "Left rotate an array by D places",
       "step": 3
     }
   ]
