@@ -3,13 +3,13 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**14 / 403 solved (3.5%)**
+**17 / 403 solved (4.2%)**
 
 ## Progress by step
 
 | # | Step | Solved | |
 |---|------|--------|---|
-| 03 | Solve Problems on Arrays | 14/40 | `██████░░░░░░░░░░░░` |
+| 03 | Solve Problems on Arrays | 17/40 | `████████░░░░░░░░░░` |
 | 04 | Binary Search | 0/32 | `░░░░░░░░░░░░░░░░░░` |
 | 05 | Strings | 0/15 | `░░░░░░░░░░░░░░░░░░` |
 | 06 | Linked List | 0/31 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,6 +28,9 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-08-03` — Two Sum Problem
+- `2026-08-03` — Longest subarray with sum K (positives and negatives)
+- `2026-08-03` — Longest subarray with given sum K (positives)
 - `2026-08-02` — Find the number that appears once and other numbers twice
 - `2026-08-02` — Maximum Consecutive Ones
 - `2026-08-02` — Find missing number in an array
@@ -37,9 +40,6 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 - `2026-07-31` — Sort an array of 0s 1s and 2s
 - `2026-07-30` — Move Zeros to end
 - `2026-07-29` — Left rotate an array by D places
-- `2026-07-29` — Left Rotate an array by one place
-- `2026-07-28` — Remove duplicates from Sorted array
-- `2026-07-28` — Check if the array is sorted
 
 ## Layout
 

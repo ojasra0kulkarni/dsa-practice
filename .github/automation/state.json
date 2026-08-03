@@ -13,11 +13,14 @@
     16,
     9,
     10,
-    11
+    11,
+    12,
+    13,
+    14
   ],
   "revisits": {},
-  "last_session_day": "2026-08-02",
-  "day_number": 7,
+  "last_session_day": "2026-08-03",
+  "day_number": 8,
   "recent": [
     {
       "date": "2026-07-27",
@@ -87,6 +90,21 @@
     {
       "date": "2026-08-02",
       "name": "Find the number that appears once and other numbers twice",
+      "step": 3
+    },
+    {
+      "date": "2026-08-03",
+      "name": "Longest subarray with given sum K (positives)",
+      "step": 3
+    },
+    {
+      "date": "2026-08-03",
+      "name": "Longest subarray with sum K (positives and negatives)",
+      "step": 3
+    },
+    {
+      "date": "2026-08-03",
+      "name": "Two Sum Problem",
       "step": 3
     }
   ]
