@@ -16,11 +16,12 @@
     11,
     12,
     13,
-    14
+    14,
+    17
   ],
   "revisits": {},
-  "last_session_day": "2026-08-03",
-  "day_number": 8,
+  "last_session_day": "2026-08-04",
+  "day_number": 9,
   "recent": [
     {
       "date": "2026-07-27",
@@ -105,6 +106,11 @@
     {
       "date": "2026-08-03",
       "name": "Two Sum Problem",
+      "step": 3
+    },
+    {
+      "date": "2026-08-04",
+      "name": "Kadane's Algorithm - maximum subarray sum",
       "step": 3
     }
   ]
