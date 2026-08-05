@@ -17,11 +17,13 @@
     12,
     13,
     14,
-    17
+    17,
+    18,
+    19
   ],
   "revisits": {},
-  "last_session_day": "2026-08-04",
-  "day_number": 9,
+  "last_session_day": "2026-08-05",
+  "day_number": 10,
   "recent": [
     {
       "date": "2026-07-27",
@@ -111,6 +113,16 @@
     {
       "date": "2026-08-04",
       "name": "Kadane's Algorithm - maximum subarray sum",
+      "step": 3
+    },
+    {
+      "date": "2026-08-05",
+      "name": "Print subarray with maximum subarray sum",
+      "step": 3
+    },
+    {
+      "date": "2026-08-05",
+      "name": "Stock Buy and Sell",
       "step": 3
     }
   ]
