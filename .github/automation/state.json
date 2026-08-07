@@ -20,11 +20,13 @@
     17,
     18,
     19,
-    20
+    20,
+    21,
+    22
   ],
   "revisits": {},
-  "last_session_day": "2026-08-06",
-  "day_number": 11,
+  "last_session_day": "2026-08-07",
+  "day_number": 12,
   "recent": [
     {
       "date": "2026-07-27",
@@ -129,6 +131,16 @@
     {
       "date": "2026-08-06",
       "name": "Rearrange the array in alternating positive and negative items",
+      "step": 3
+    },
+    {
+      "date": "2026-08-07",
+      "name": "Next Permutation",
+      "step": 3
+    },
+    {
+      "date": "2026-08-07",
+      "name": "Leaders in an Array",
       "step": 3
     }
   ]
