@@ -3,13 +3,13 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**23 / 403 solved (5.7%)**
+**25 / 403 solved (6.2%)**
 
 ## Progress by step
 
 | # | Step | Solved | |
 |---|------|--------|---|
-| 03 | Solve Problems on Arrays | 23/40 | `██████████░░░░░░░░` |
+| 03 | Solve Problems on Arrays | 25/40 | `███████████░░░░░░░` |
 | 04 | Binary Search | 0/32 | `░░░░░░░░░░░░░░░░░░` |
 | 05 | Strings | 0/15 | `░░░░░░░░░░░░░░░░░░` |
 | 06 | Linked List | 0/31 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,6 +28,8 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-08-08` — Set Matrix Zeroes
+- `2026-08-08` — Longest Consecutive Sequence in an Array
 - `2026-08-07` — Leaders in an Array
 - `2026-08-07` — Next Permutation
 - `2026-08-06` — Rearrange the array in alternating positive and negative items
@@ -38,8 +40,6 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 - `2026-08-03` — Longest subarray with sum K (positives and negatives)
 - `2026-08-03` — Longest subarray with given sum K (positives)
 - `2026-08-02` — Find the number that appears once and other numbers twice
-- `2026-08-02` — Maximum Consecutive Ones
-- `2026-08-02` — Find missing number in an array
 
 ## Layout
 

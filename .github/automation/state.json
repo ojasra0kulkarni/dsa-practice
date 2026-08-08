@@ -22,11 +22,13 @@
     19,
     20,
     21,
-    22
+    22,
+    23,
+    24
   ],
   "revisits": {},
-  "last_session_day": "2026-08-07",
-  "day_number": 12,
+  "last_session_day": "2026-08-08",
+  "day_number": 13,
   "recent": [
     {
       "date": "2026-07-27",
@@ -141,6 +143,16 @@
     {
       "date": "2026-08-07",
       "name": "Leaders in an Array",
+      "step": 3
+    },
+    {
+      "date": "2026-08-08",
+      "name": "Longest Consecutive Sequence in an Array",
+      "step": 3
+    },
+    {
+      "date": "2026-08-08",
+      "name": "Set Matrix Zeroes",
       "step": 3
     }
   ]
