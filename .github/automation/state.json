@@ -26,11 +26,13 @@
     23,
     24,
     25,
-    35
+    35,
+    26,
+    29
   ],
   "revisits": {},
-  "last_session_day": "2026-08-09",
-  "day_number": 14,
+  "last_session_day": "2026-08-10",
+  "day_number": 15,
   "recent": [
     {
       "date": "2026-07-27",
@@ -165,6 +167,16 @@
     {
       "date": "2026-08-09",
       "name": "Merge two sorted arrays without extra space",
+      "step": 3
+    },
+    {
+      "date": "2026-08-10",
+      "name": "Print the matrix in spiral manner",
+      "step": 3
+    },
+    {
+      "date": "2026-08-10",
+      "name": "Majority Element (more than n/3 times)",
       "step": 3
     }
   ]
