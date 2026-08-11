@@ -13,3 +13,10 @@ Used the first row and column as markers for whether a row/column needs to be ze
 
 - Need a separate flag for the first column because mat[0][0] indicates status for both its row and column.
 - TC O(N*M), SC O(1)
+
+## Count subarrays with given sum
+
+Keep track of prefix sums and their frequencies. For each sum, check if (sum - k) was seen before.
+
+- Remember to initialize hashmap with 0:1 for subarrays starting from index 0.
+- TC O(N), SC O(N)

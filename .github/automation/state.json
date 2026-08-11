@@ -28,11 +28,12 @@
     25,
     35,
     26,
-    29
+    29,
+    27
   ],
   "revisits": {},
-  "last_session_day": "2026-08-10",
-  "day_number": 15,
+  "last_session_day": "2026-08-11",
+  "day_number": 16,
   "recent": [
     {
       "date": "2026-07-27",
@@ -177,6 +178,11 @@
     {
       "date": "2026-08-10",
       "name": "Majority Element (more than n/3 times)",
+      "step": 3
+    },
+    {
+      "date": "2026-08-11",
+      "name": "Count subarrays with given sum",
       "step": 3
     }
   ]
