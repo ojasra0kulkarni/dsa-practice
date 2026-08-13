@@ -30,11 +30,14 @@
     26,
     29,
     27,
-    28
+    28,
+    30,
+    31,
+    32
   ],
   "revisits": {},
-  "last_session_day": "2026-08-12",
-  "day_number": 17,
+  "last_session_day": "2026-08-13",
+  "day_number": 18,
   "recent": [
     {
       "date": "2026-07-27",
@@ -189,6 +192,21 @@
     {
       "date": "2026-08-12",
       "name": "Pascal's Triangle",
+      "step": 3
+    },
+    {
+      "date": "2026-08-13",
+      "name": "3 Sum Problem",
+      "step": 3
+    },
+    {
+      "date": "2026-08-13",
+      "name": "4 Sum Problem",
+      "step": 3
+    },
+    {
+      "date": "2026-08-13",
+      "name": "Largest Subarray with 0 Sum",
       "step": 3
     }
   ]
