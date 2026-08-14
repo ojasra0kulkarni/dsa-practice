@@ -20,3 +20,10 @@ Keep track of prefix sums and their frequencies. For each sum, check if (sum - k
 
 - Remember to initialize hashmap with 0:1 for subarrays starting from index 0.
 - TC O(N), SC O(N)
+
+## Count number of subarrays with given xor K
+
+Iterate, maintain current XOR sum, and use a map to count previous XORs that would make the current XOR equal K. Remember to initialize map with {0:1} for subarrays starting at index 0.
+
+- Initialize the hashmap with {0: 1} to account for subarrays starting from the beginning of the array.
+- TC O(n), SC O(n)
