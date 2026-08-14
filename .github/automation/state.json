@@ -33,11 +33,14 @@
     28,
     30,
     31,
-    32
+    32,
+    33,
+    34,
+    36
   ],
   "revisits": {},
-  "last_session_day": "2026-08-13",
-  "day_number": 18,
+  "last_session_day": "2026-08-14",
+  "day_number": 19,
   "recent": [
     {
       "date": "2026-07-27",
@@ -207,6 +210,21 @@
     {
       "date": "2026-08-13",
       "name": "Largest Subarray with 0 Sum",
+      "step": 3
+    },
+    {
+      "date": "2026-08-14",
+      "name": "Count number of subarrays with given xor K",
+      "step": 3
+    },
+    {
+      "date": "2026-08-14",
+      "name": "Merge Overlapping Subintervals",
+      "step": 3
+    },
+    {
+      "date": "2026-08-14",
+      "name": "Find the repeating and missing number",
       "step": 3
     }
   ]

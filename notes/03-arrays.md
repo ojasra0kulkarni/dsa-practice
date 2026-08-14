@@ -27,3 +27,10 @@ Iterate, maintain current XOR sum, and use a map to count previous XORs that wou
 
 - Initialize the hashmap with {0: 1} to account for subarrays starting from the beginning of the array.
 - TC O(n), SC O(n)
+
+## Find the repeating and missing number
+
+Calculated the sum and sum of squares from 1 to N, and then for the given array. Used the differences to form two equations (x-y and x+y) and solved them simultaneously to find the repeating (x) and missing (y) numbers.
+
+- Remember to use long long for all sum calculations to avoid integer overflow, especially for sum of squares.
+- TC O(n), SC O(1)
