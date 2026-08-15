@@ -36,11 +36,14 @@
     32,
     33,
     34,
-    36
+    36,
+    37,
+    38,
+    39
   ],
   "revisits": {},
-  "last_session_day": "2026-08-14",
-  "day_number": 19,
+  "last_session_day": "2026-08-15",
+  "day_number": 20,
   "recent": [
     {
       "date": "2026-07-27",
@@ -225,6 +228,21 @@
     {
       "date": "2026-08-14",
       "name": "Find the repeating and missing number",
+      "step": 3
+    },
+    {
+      "date": "2026-08-15",
+      "name": "Count Inversions",
+      "step": 3
+    },
+    {
+      "date": "2026-08-15",
+      "name": "Reverse Pairs",
+      "step": 3
+    },
+    {
+      "date": "2026-08-15",
+      "name": "Maximum Product Subarray",
       "step": 3
     }
   ]
