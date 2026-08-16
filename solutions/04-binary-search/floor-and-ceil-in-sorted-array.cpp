@@ -29,3 +29,5 @@ pair<int, int> getFloorAndCeil(vector<int> &arr, int n, int x) {
     return {f, c};
     
 }
+
+// note to self: revisit the binary search variant
