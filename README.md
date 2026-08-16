@@ -3,14 +3,14 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**31 / 403 solved (7.7%)**
+**45 / 403 solved (11.2%)**
 
 ## Progress by step
 
 | # | Step | Solved | |
 |---|------|--------|---|
-| 03 | Solve Problems on Arrays | 31/40 | `██████████████░░░░` |
-| 04 | Binary Search | 0/32 | `░░░░░░░░░░░░░░░░░░` |
+| 03 | Solve Problems on Arrays | 40/40 | `██████████████████` |
+| 04 | Binary Search | 5/32 | `███░░░░░░░░░░░░░░░` |
 | 05 | Strings | 0/15 | `░░░░░░░░░░░░░░░░░░` |
 | 06 | Linked List | 0/31 | `░░░░░░░░░░░░░░░░░░` |
 | 07 | Recursion | 0/24 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,18 +28,18 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
-- `2026-08-12` — Pascal's Triangle
-- `2026-08-11` — Count subarrays with given sum
-- `2026-08-10` — Majority Element (more than n/3 times)
-- `2026-08-10` — Print the matrix in spiral manner
-- `2026-08-09` — Merge two sorted arrays without extra space
-- `2026-08-09` — Rotate Matrix by 90 degrees
-- `2026-08-08` — Set Matrix Zeroes
-- `2026-08-08` — Longest Consecutive Sequence in an Array
-- `2026-08-07` — Leaders in an Array
-- `2026-08-07` — Next Permutation
-- `2026-08-06` — Rearrange the array in alternating positive and negative items
-- `2026-08-05` — Stock Buy and Sell
+- `2026-08-16` — Floor and Ceil in Sorted Array
+- `2026-08-16` — Search Insert Position
+- `2026-08-16` — Implement Upper Bound
+- `2026-08-16` — Implement Lower Bound
+- `2026-08-16` — Binary Search to find X in sorted array
+- `2026-08-15` — Maximum Product Subarray
+- `2026-08-15` — Reverse Pairs
+- `2026-08-15` — Count Inversions
+- `2026-08-14` — Find the repeating and missing number
+- `2026-08-14` — Merge Overlapping Subintervals
+- `2026-08-14` — Count number of subarrays with given xor K
+- `2026-08-13` — Largest Subarray with 0 Sum
 
 ## Layout
 

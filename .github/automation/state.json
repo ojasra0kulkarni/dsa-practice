@@ -39,37 +39,17 @@
     36,
     37,
     38,
-    39
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
   ],
   "revisits": {},
-  "last_session_day": "2026-08-15",
-  "day_number": 20,
+  "last_session_day": "2026-08-16",
+  "day_number": 21,
   "recent": [
-    {
-      "date": "2026-07-27",
-      "name": "Largest Element in an Array",
-      "step": 3
-    },
-    {
-      "date": "2026-07-27",
-      "name": "Second Largest Element in an Array without sorting",
-      "step": 3
-    },
-    {
-      "date": "2026-07-28",
-      "name": "Check if the array is sorted",
-      "step": 3
-    },
-    {
-      "date": "2026-07-28",
-      "name": "Remove duplicates from Sorted array",
-      "step": 3
-    },
-    {
-      "date": "2026-07-29",
-      "name": "Left Rotate an array by one place",
-      "step": 3
-    },
     {
       "date": "2026-07-29",
       "name": "Left rotate an array by D places",
@@ -244,6 +224,31 @@
       "date": "2026-08-15",
       "name": "Maximum Product Subarray",
       "step": 3
+    },
+    {
+      "date": "2026-08-16",
+      "name": "Binary Search to find X in sorted array",
+      "step": 4
+    },
+    {
+      "date": "2026-08-16",
+      "name": "Implement Lower Bound",
+      "step": 4
+    },
+    {
+      "date": "2026-08-16",
+      "name": "Implement Upper Bound",
+      "step": 4
+    },
+    {
+      "date": "2026-08-16",
+      "name": "Search Insert Position",
+      "step": 4
+    },
+    {
+      "date": "2026-08-16",
+      "name": "Floor and Ceil in Sorted Array",
+      "step": 4
     }
   ]
 }
