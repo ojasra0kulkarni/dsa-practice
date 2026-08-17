@@ -44,17 +44,13 @@
     41,
     42,
     43,
-    44
+    44,
+    45
   ],
   "revisits": {},
-  "last_session_day": "2026-08-16",
-  "day_number": 21,
+  "last_session_day": "2026-08-17",
+  "day_number": 22,
   "recent": [
-    {
-      "date": "2026-07-29",
-      "name": "Left rotate an array by D places",
-      "step": 3
-    },
     {
       "date": "2026-07-30",
       "name": "Move Zeros to end",
@@ -248,6 +244,11 @@
     {
       "date": "2026-08-16",
       "name": "Floor and Ceil in Sorted Array",
+      "step": 4
+    },
+    {
+      "date": "2026-08-17",
+      "name": "Find the first or last occurrence of a given number in a sorted array",
       "step": 4
     }
   ]
