@@ -3,14 +3,14 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**45 / 403 solved (11.2%)**
+**48 / 403 solved (11.9%)**
 
 ## Progress by step
 
 | # | Step | Solved | |
 |---|------|--------|---|
 | 03 | Solve Problems on Arrays | 40/40 | `██████████████████` |
-| 04 | Binary Search | 5/32 | `███░░░░░░░░░░░░░░░` |
+| 04 | Binary Search | 8/32 | `█████░░░░░░░░░░░░░` |
 | 05 | Strings | 0/15 | `░░░░░░░░░░░░░░░░░░` |
 | 06 | Linked List | 0/31 | `░░░░░░░░░░░░░░░░░░` |
 | 07 | Recursion | 0/24 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,6 +28,9 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-08-18` — Search in Rotated Sorted Array I
+- `2026-08-18` — Count occurrences of a number in a sorted array with duplicates
+- `2026-08-17` — Find the first or last occurrence of a given number in a sorted array
 - `2026-08-16` — Floor and Ceil in Sorted Array
 - `2026-08-16` — Search Insert Position
 - `2026-08-16` — Implement Upper Bound
@@ -37,9 +40,6 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 - `2026-08-15` — Reverse Pairs
 - `2026-08-15` — Count Inversions
 - `2026-08-14` — Find the repeating and missing number
-- `2026-08-14` — Merge Overlapping Subintervals
-- `2026-08-14` — Count number of subarrays with given xor K
-- `2026-08-13` — Largest Subarray with 0 Sum
 
 ## Layout
 

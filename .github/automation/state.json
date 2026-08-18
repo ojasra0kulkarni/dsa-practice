@@ -45,22 +45,14 @@
     42,
     43,
     44,
-    45
+    45,
+    46,
+    47
   ],
   "revisits": {},
-  "last_session_day": "2026-08-17",
-  "day_number": 22,
+  "last_session_day": "2026-08-18",
+  "day_number": 23,
   "recent": [
-    {
-      "date": "2026-07-30",
-      "name": "Move Zeros to end",
-      "step": 3
-    },
-    {
-      "date": "2026-07-31",
-      "name": "Sort an array of 0s 1s and 2s",
-      "step": 3
-    },
     {
       "date": "2026-08-01",
       "name": "Linear Search",
@@ -249,6 +241,16 @@
     {
       "date": "2026-08-17",
       "name": "Find the first or last occurrence of a given number in a sorted array",
+      "step": 4
+    },
+    {
+      "date": "2026-08-18",
+      "name": "Count occurrences of a number in a sorted array with duplicates",
+      "step": 4
+    },
+    {
+      "date": "2026-08-18",
+      "name": "Search in Rotated Sorted Array I",
       "step": 4
     }
   ]
