@@ -6,3 +6,10 @@ Just a standard binary search. If a value is greater than or equal to x, it's a 
 
 - If no element is found, the answer should be n (size of array), indicating insertion point.
 - TC O(logN), SC O(1)
+
+## Count occurrences of a number in a sorted array with duplicates
+
+Used binary search twice: once to find the first occurrence of x, and once for the last. Then just subtract indices.
+
+- If the number isn't in the array, first occurrence will be -1, so handle that.
+- TC O(log n), SC O(1)
