@@ -13,3 +13,10 @@ Used binary search twice: once to find the first occurrence of x, and once for t
 
 - If the number isn't in the array, first occurrence will be -1, so handle that.
 - TC O(log n), SC O(1)
+
+## Find minimum in Rotated Sorted Array
+
+standard binary search, find the sorted part and update the minimum, then search in the other half to find the dip.
+
+- forgetting to update ans with arr[l] in sorted left half
+- TC O(logN), SC O(1)
