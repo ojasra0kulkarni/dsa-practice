@@ -47,27 +47,15 @@
     44,
     45,
     46,
-    47
+    47,
+    48,
+    49,
+    50
   ],
   "revisits": {},
-  "last_session_day": "2026-08-18",
-  "day_number": 23,
+  "last_session_day": "2026-08-19",
+  "day_number": 24,
   "recent": [
-    {
-      "date": "2026-08-01",
-      "name": "Linear Search",
-      "step": 3
-    },
-    {
-      "date": "2026-08-01",
-      "name": "Find the Union of two sorted arrays",
-      "step": 3
-    },
-    {
-      "date": "2026-08-02",
-      "name": "Majority Element (more than n/2 times)",
-      "step": 3
-    },
     {
       "date": "2026-08-02",
       "name": "Find missing number in an array",
@@ -251,6 +239,21 @@
     {
       "date": "2026-08-18",
       "name": "Search in Rotated Sorted Array I",
+      "step": 4
+    },
+    {
+      "date": "2026-08-19",
+      "name": "Search in Rotated Sorted Array II",
+      "step": 4
+    },
+    {
+      "date": "2026-08-19",
+      "name": "Find minimum in Rotated Sorted Array",
+      "step": 4
+    },
+    {
+      "date": "2026-08-19",
+      "name": "Find out how many times the array has been rotated",
       "step": 4
     }
   ]
