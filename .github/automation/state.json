@@ -50,22 +50,14 @@
     47,
     48,
     49,
-    50
+    50,
+    51,
+    58
   ],
   "revisits": {},
-  "last_session_day": "2026-08-19",
-  "day_number": 24,
+  "last_session_day": "2026-08-20",
+  "day_number": 25,
   "recent": [
-    {
-      "date": "2026-08-02",
-      "name": "Find missing number in an array",
-      "step": 3
-    },
-    {
-      "date": "2026-08-02",
-      "name": "Maximum Consecutive Ones",
-      "step": 3
-    },
     {
       "date": "2026-08-02",
       "name": "Find the number that appears once and other numbers twice",
@@ -254,6 +246,16 @@
     {
       "date": "2026-08-19",
       "name": "Find out how many times the array has been rotated",
+      "step": 4
+    },
+    {
+      "date": "2026-08-20",
+      "name": "Single element in a Sorted Array",
+      "step": 4
+    },
+    {
+      "date": "2026-08-20",
+      "name": "Capacity to Ship Packages within D Days",
       "step": 4
     }
   ]
