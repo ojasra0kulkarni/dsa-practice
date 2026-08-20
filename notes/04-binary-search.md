@@ -20,3 +20,10 @@ standard binary search, find the sorted part and update the minimum, then search
 
 - forgetting to update ans with arr[l] in sorted left half
 - TC O(logN), SC O(1)
+
+## Single element in a Sorted Array
+
+Binary search. Unique element breaks (even,odd) pair pattern. Adjust search range by checking mid's parity and value.
+
+- Remember to handle edge cases for elements at the array ends separately.
+- TC O(log N), SC O(1)
