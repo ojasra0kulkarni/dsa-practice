@@ -3,14 +3,14 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**51 / 403 solved (12.7%)**
+**54 / 403 solved (13.4%)**
 
 ## Progress by step
 
 | # | Step | Solved | |
 |---|------|--------|---|
 | 03 | Solve Problems on Arrays | 40/40 | `██████████████████` |
-| 04 | Binary Search | 11/32 | `██████░░░░░░░░░░░░` |
+| 04 | Binary Search | 14/32 | `████████░░░░░░░░░░` |
 | 05 | Strings | 0/15 | `░░░░░░░░░░░░░░░░░░` |
 | 06 | Linked List | 0/31 | `░░░░░░░░░░░░░░░░░░` |
 | 07 | Recursion | 0/24 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,6 +28,9 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-08-21` — Find peak element
+- `2026-08-20` — Capacity to Ship Packages within D Days
+- `2026-08-20` — Single element in a Sorted Array
 - `2026-08-19` — Find out how many times the array has been rotated
 - `2026-08-19` — Find minimum in Rotated Sorted Array
 - `2026-08-19` — Search in Rotated Sorted Array II
@@ -37,9 +40,6 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 - `2026-08-16` — Floor and Ceil in Sorted Array
 - `2026-08-16` — Search Insert Position
 - `2026-08-16` — Implement Upper Bound
-- `2026-08-16` — Implement Lower Bound
-- `2026-08-16` — Binary Search to find X in sorted array
-- `2026-08-15` — Maximum Product Subarray
 
 ## Layout
 

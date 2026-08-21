@@ -52,17 +52,13 @@
     49,
     50,
     51,
-    58
+    58,
+    52
   ],
   "revisits": {},
-  "last_session_day": "2026-08-20",
-  "day_number": 25,
+  "last_session_day": "2026-08-21",
+  "day_number": 26,
   "recent": [
-    {
-      "date": "2026-08-02",
-      "name": "Find the number that appears once and other numbers twice",
-      "step": 3
-    },
     {
       "date": "2026-08-03",
       "name": "Longest subarray with given sum K (positives)",
@@ -256,6 +252,11 @@
     {
       "date": "2026-08-20",
       "name": "Capacity to Ship Packages within D Days",
+      "step": 4
+    },
+    {
+      "date": "2026-08-21",
+      "name": "Find peak element",
       "step": 4
     }
   ]
