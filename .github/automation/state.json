@@ -53,27 +53,15 @@
     50,
     51,
     58,
-    52
+    52,
+    53,
+    54,
+    55
   ],
   "revisits": {},
-  "last_session_day": "2026-08-21",
-  "day_number": 26,
+  "last_session_day": "2026-08-22",
+  "day_number": 27,
   "recent": [
-    {
-      "date": "2026-08-03",
-      "name": "Longest subarray with given sum K (positives)",
-      "step": 3
-    },
-    {
-      "date": "2026-08-03",
-      "name": "Longest subarray with sum K (positives and negatives)",
-      "step": 3
-    },
-    {
-      "date": "2026-08-03",
-      "name": "Two Sum Problem",
-      "step": 3
-    },
     {
       "date": "2026-08-04",
       "name": "Kadane's Algorithm - maximum subarray sum",
@@ -257,6 +245,21 @@
     {
       "date": "2026-08-21",
       "name": "Find peak element",
+      "step": 4
+    },
+    {
+      "date": "2026-08-22",
+      "name": "Find square root of a number in log n",
+      "step": 4
+    },
+    {
+      "date": "2026-08-22",
+      "name": "Find the Nth root of a number using binary search",
+      "step": 4
+    },
+    {
+      "date": "2026-08-22",
+      "name": "Koko Eating Bananas",
       "step": 4
     }
   ]
