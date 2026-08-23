@@ -56,22 +56,14 @@
     52,
     53,
     54,
-    55
+    55,
+    65,
+    56
   ],
   "revisits": {},
-  "last_session_day": "2026-08-22",
-  "day_number": 27,
+  "last_session_day": "2026-08-23",
+  "day_number": 28,
   "recent": [
-    {
-      "date": "2026-08-04",
-      "name": "Kadane's Algorithm - maximum subarray sum",
-      "step": 3
-    },
-    {
-      "date": "2026-08-05",
-      "name": "Print subarray with maximum subarray sum",
-      "step": 3
-    },
     {
       "date": "2026-08-05",
       "name": "Stock Buy and Sell",
@@ -260,6 +252,16 @@
     {
       "date": "2026-08-22",
       "name": "Koko Eating Bananas",
+      "step": 4
+    },
+    {
+      "date": "2026-08-23",
+      "name": "Median of 2 sorted arrays",
+      "step": 4
+    },
+    {
+      "date": "2026-08-23",
+      "name": "Minimum days to make M bouquets",
       "step": 4
     }
   ]
