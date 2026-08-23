@@ -27,3 +27,10 @@ Binary search. Unique element breaks (even,odd) pair pattern. Adjust search rang
 
 - Remember to handle edge cases for elements at the array ends separately.
 - TC O(log N), SC O(1)
+
+## Median of 2 sorted arrays
+
+Binary search for the cut point in the shorter array. Figure out the corresponding cut in the other array. Check if the elements on either side of the cuts are correctly ordered. Adjust binary search range based on comparisons.
+
+- Remember to use INT_MIN/INT_MAX when a partition cut is at the very beginning or very end of an array.
+- TC O(log(min(n1, n2))), SC O(1)
