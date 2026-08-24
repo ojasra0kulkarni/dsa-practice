@@ -58,27 +58,15 @@
     54,
     55,
     65,
-    56
+    56,
+    57,
+    59,
+    60
   ],
   "revisits": {},
-  "last_session_day": "2026-08-23",
-  "day_number": 28,
+  "last_session_day": "2026-08-24",
+  "day_number": 29,
   "recent": [
-    {
-      "date": "2026-08-05",
-      "name": "Stock Buy and Sell",
-      "step": 3
-    },
-    {
-      "date": "2026-08-06",
-      "name": "Rearrange the array in alternating positive and negative items",
-      "step": 3
-    },
-    {
-      "date": "2026-08-07",
-      "name": "Next Permutation",
-      "step": 3
-    },
     {
       "date": "2026-08-07",
       "name": "Leaders in an Array",
@@ -262,6 +250,21 @@
     {
       "date": "2026-08-23",
       "name": "Minimum days to make M bouquets",
+      "step": 4
+    },
+    {
+      "date": "2026-08-24",
+      "name": "Find the smallest Divisor",
+      "step": 4
+    },
+    {
+      "date": "2026-08-24",
+      "name": "Kth Missing Positive Number",
+      "step": 4
+    },
+    {
+      "date": "2026-08-24",
+      "name": "Aggressive Cows",
       "step": 4
     }
   ]
