@@ -61,22 +61,14 @@
     56,
     57,
     59,
-    60
+    60,
+    61,
+    62
   ],
   "revisits": {},
-  "last_session_day": "2026-08-24",
-  "day_number": 29,
+  "last_session_day": "2026-08-25",
+  "day_number": 30,
   "recent": [
-    {
-      "date": "2026-08-07",
-      "name": "Leaders in an Array",
-      "step": 3
-    },
-    {
-      "date": "2026-08-08",
-      "name": "Longest Consecutive Sequence in an Array",
-      "step": 3
-    },
     {
       "date": "2026-08-08",
       "name": "Set Matrix Zeroes",
@@ -265,6 +257,16 @@
     {
       "date": "2026-08-24",
       "name": "Aggressive Cows",
+      "step": 4
+    },
+    {
+      "date": "2026-08-25",
+      "name": "Book Allocation Problem",
+      "step": 4
+    },
+    {
+      "date": "2026-08-25",
+      "name": "Split array - Largest Sum",
       "step": 4
     }
   ]
