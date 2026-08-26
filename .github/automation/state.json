@@ -63,22 +63,14 @@
     59,
     60,
     61,
-    62
+    62,
+    70,
+    63
   ],
   "revisits": {},
-  "last_session_day": "2026-08-25",
-  "day_number": 30,
+  "last_session_day": "2026-08-26",
+  "day_number": 31,
   "recent": [
-    {
-      "date": "2026-08-08",
-      "name": "Set Matrix Zeroes",
-      "step": 3
-    },
-    {
-      "date": "2026-08-09",
-      "name": "Rotate Matrix by 90 degrees",
-      "step": 3
-    },
     {
       "date": "2026-08-09",
       "name": "Merge two sorted arrays without extra space",
@@ -267,6 +259,16 @@
     {
       "date": "2026-08-25",
       "name": "Split array - Largest Sum",
+      "step": 4
+    },
+    {
+      "date": "2026-08-26",
+      "name": "Find Peak Element in 2D matrix",
+      "step": 4
+    },
+    {
+      "date": "2026-08-26",
+      "name": "Painter's Partition",
       "step": 4
     }
   ]

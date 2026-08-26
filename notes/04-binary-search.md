@@ -41,3 +41,10 @@ Binary search on columns. For the middle column, find the global maximum element
 
 - Handle boundary conditions for left/right neighbors in the first/last column by assigning a very small value like -1 since elements are positive.
 - TC O(N log M), SC O(1)
+
+## Painter's Partition
+
+Binary search on the possible range of answers. Check if a given max sum is achievable with k painters and adjust search range.
+
+- The lower bound for binary search should be the max element, and a single board can be larger than mid.
+- TC O(N log S) where S is the sum of all board lengths, SC O(1)
