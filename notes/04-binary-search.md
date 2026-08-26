@@ -34,3 +34,10 @@ Binary search for the cut point in the shorter array. Figure out the correspondi
 
 - Remember to use INT_MIN/INT_MAX when a partition cut is at the very beginning or very end of an array.
 - TC O(log(min(n1, n2))), SC O(1)
+
+## Find Peak Element in 2D matrix
+
+Binary search on columns. For the middle column, find the global maximum element in that column. If it's greater than both its horizontal neighbors, it's a peak. Otherwise, move the search towards the direction of the greater neighbor.
+
+- Handle boundary conditions for left/right neighbors in the first/last column by assigning a very small value like -1 since elements are positive.
+- TC O(N log M), SC O(1)
