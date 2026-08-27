@@ -65,17 +65,13 @@
     61,
     62,
     70,
-    63
+    63,
+    64
   ],
   "revisits": {},
-  "last_session_day": "2026-08-26",
-  "day_number": 31,
+  "last_session_day": "2026-08-27",
+  "day_number": 32,
   "recent": [
-    {
-      "date": "2026-08-09",
-      "name": "Merge two sorted arrays without extra space",
-      "step": 3
-    },
     {
       "date": "2026-08-10",
       "name": "Print the matrix in spiral manner",
@@ -269,6 +265,11 @@
     {
       "date": "2026-08-26",
       "name": "Painter's Partition",
+      "step": 4
+    },
+    {
+      "date": "2026-08-27",
+      "name": "Minimize Max Distance to Gas Station",
       "step": 4
     }
   ]
