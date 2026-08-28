@@ -66,22 +66,14 @@
     62,
     70,
     63,
-    64
+    64,
+    66,
+    67
   ],
   "revisits": {},
-  "last_session_day": "2026-08-27",
-  "day_number": 32,
+  "last_session_day": "2026-08-28",
+  "day_number": 33,
   "recent": [
-    {
-      "date": "2026-08-10",
-      "name": "Print the matrix in spiral manner",
-      "step": 3
-    },
-    {
-      "date": "2026-08-10",
-      "name": "Majority Element (more than n/3 times)",
-      "step": 3
-    },
     {
       "date": "2026-08-11",
       "name": "Count subarrays with given sum",
@@ -270,6 +262,16 @@
     {
       "date": "2026-08-27",
       "name": "Minimize Max Distance to Gas Station",
+      "step": 4
+    },
+    {
+      "date": "2026-08-28",
+      "name": "Kth element of 2 sorted arrays",
+      "step": 4
+    },
+    {
+      "date": "2026-08-28",
+      "name": "Find the row with maximum number of 1s",
       "step": 4
     }
   ]

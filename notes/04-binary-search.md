@@ -48,3 +48,10 @@ Binary search on the possible range of answers. Check if a given max sum is achi
 
 - The lower bound for binary search should be the max element, and a single board can be larger than mid.
 - TC O(N log S) where S is the sum of all board lengths, SC O(1)
+
+## Find the row with maximum number of 1s
+
+Start from top right corner. If it's a 1, that's a candidate row; move left. If it's a 0, move down to the next row.
+
+- Iterating each row with a simple count or binary search is slower than the two-pointer approach.
+- TC O(N + M), SC O(1)
