@@ -68,27 +68,15 @@
     63,
     64,
     66,
-    67
+    67,
+    68,
+    78,
+    69
   ],
   "revisits": {},
-  "last_session_day": "2026-08-28",
-  "day_number": 33,
+  "last_session_day": "2026-08-29",
+  "day_number": 34,
   "recent": [
-    {
-      "date": "2026-08-11",
-      "name": "Count subarrays with given sum",
-      "step": 3
-    },
-    {
-      "date": "2026-08-12",
-      "name": "Pascal's Triangle",
-      "step": 3
-    },
-    {
-      "date": "2026-08-13",
-      "name": "3 Sum Problem",
-      "step": 3
-    },
     {
       "date": "2026-08-13",
       "name": "4 Sum Problem",
@@ -272,6 +260,21 @@
     {
       "date": "2026-08-28",
       "name": "Find the row with maximum number of 1s",
+      "step": 4
+    },
+    {
+      "date": "2026-08-29",
+      "name": "Search in a 2D matrix",
+      "step": 4
+    },
+    {
+      "date": "2026-08-29",
+      "name": "Check if two strings are anagram of each other",
+      "step": 5
+    },
+    {
+      "date": "2026-08-29",
+      "name": "Search in a row and column wise sorted matrix",
       "step": 4
     }
   ]
