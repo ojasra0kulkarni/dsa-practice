@@ -71,37 +71,17 @@
     67,
     68,
     78,
-    69
+    69,
+    71,
+    72,
+    73,
+    74,
+    75
   ],
   "revisits": {},
-  "last_session_day": "2026-08-29",
-  "day_number": 34,
+  "last_session_day": "2026-08-30",
+  "day_number": 35,
   "recent": [
-    {
-      "date": "2026-08-13",
-      "name": "4 Sum Problem",
-      "step": 3
-    },
-    {
-      "date": "2026-08-13",
-      "name": "Largest Subarray with 0 Sum",
-      "step": 3
-    },
-    {
-      "date": "2026-08-14",
-      "name": "Count number of subarrays with given xor K",
-      "step": 3
-    },
-    {
-      "date": "2026-08-14",
-      "name": "Merge Overlapping Subintervals",
-      "step": 3
-    },
-    {
-      "date": "2026-08-14",
-      "name": "Find the repeating and missing number",
-      "step": 3
-    },
     {
       "date": "2026-08-15",
       "name": "Count Inversions",
@@ -276,6 +256,31 @@
       "date": "2026-08-29",
       "name": "Search in a row and column wise sorted matrix",
       "step": 4
+    },
+    {
+      "date": "2026-08-30",
+      "name": "Matrix Median",
+      "step": 4
+    },
+    {
+      "date": "2026-08-30",
+      "name": "Remove outermost Parenthesis",
+      "step": 5
+    },
+    {
+      "date": "2026-08-30",
+      "name": "Reverse words in a given string",
+      "step": 5
+    },
+    {
+      "date": "2026-08-30",
+      "name": "Largest odd number in a string",
+      "step": 5
+    },
+    {
+      "date": "2026-08-30",
+      "name": "Longest Common Prefix",
+      "step": 5
     }
   ]
 }

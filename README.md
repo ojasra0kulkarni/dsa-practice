@@ -3,15 +3,15 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**54 / 403 solved (13.4%)**
+**77 / 403 solved (19.1%)**
 
 ## Progress by step
 
 | # | Step | Solved | |
 |---|------|--------|---|
 | 03 | Solve Problems on Arrays | 40/40 | `██████████████████` |
-| 04 | Binary Search | 14/32 | `████████░░░░░░░░░░` |
-| 05 | Strings | 0/15 | `░░░░░░░░░░░░░░░░░░` |
+| 04 | Binary Search | 32/32 | `██████████████████` |
+| 05 | Strings | 5/15 | `██████░░░░░░░░░░░░` |
 | 06 | Linked List | 0/31 | `░░░░░░░░░░░░░░░░░░` |
 | 07 | Recursion | 0/24 | `░░░░░░░░░░░░░░░░░░` |
 | 08 | Bit Manipulation | 0/18 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,18 +28,18 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
-- `2026-08-21` — Find peak element
-- `2026-08-20` — Capacity to Ship Packages within D Days
-- `2026-08-20` — Single element in a Sorted Array
-- `2026-08-19` — Find out how many times the array has been rotated
-- `2026-08-19` — Find minimum in Rotated Sorted Array
-- `2026-08-19` — Search in Rotated Sorted Array II
-- `2026-08-18` — Search in Rotated Sorted Array I
-- `2026-08-18` — Count occurrences of a number in a sorted array with duplicates
-- `2026-08-17` — Find the first or last occurrence of a given number in a sorted array
-- `2026-08-16` — Floor and Ceil in Sorted Array
-- `2026-08-16` — Search Insert Position
-- `2026-08-16` — Implement Upper Bound
+- `2026-08-30` — Longest Common Prefix
+- `2026-08-30` — Largest odd number in a string
+- `2026-08-30` — Reverse words in a given string
+- `2026-08-30` — Remove outermost Parenthesis
+- `2026-08-30` — Matrix Median
+- `2026-08-29` — Search in a row and column wise sorted matrix
+- `2026-08-29` — Check if two strings are anagram of each other
+- `2026-08-29` — Search in a 2D matrix
+- `2026-08-28` — Find the row with maximum number of 1s
+- `2026-08-28` — Kth element of 2 sorted arrays
+- `2026-08-27` — Minimize Max Distance to Gas Station
+- `2026-08-26` — Painter's Partition
 
 ## Layout
 
