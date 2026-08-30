@@ -55,3 +55,10 @@ Start from top right corner. If it's a 1, that's a candidate row; move left. If 
 
 - Iterating each row with a simple count or binary search is slower than the two-pointer approach.
 - TC O(N + M), SC O(1)
+
+## Matrix Median
+
+standard binary search on answer problem. in each step, use upper_bound on each row to count elements less than or equal to mid. adjust search space based on total count.
+
+- ensure the target count for the median (req) is correctly calculated as (N*M)/2 + 1 for 1-based indexing of the median.
+- TC O(N * log M * log(MAX_VAL)), SC O(1)
