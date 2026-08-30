@@ -5,7 +5,15 @@ import { fileURLToPath } from 'node:url';
 
 import { makeRng } from './lib/rng.mjs';
 import { planDay, timingGate, spreadCommits } from './lib/schedule.mjs';
-import { utcDateKey, utcMinutesNow, toDate, gitDate, istClock, istToUtcMinutes } from './lib/time.mjs';
+import {
+  utcDateKey,
+  utcMinutesNow,
+  toDate,
+  gitDate,
+  istClock,
+  istToUtcMinutes,
+  shiftDayKey,
+} from './lib/time.mjs';
 import { flatten, pickNext } from './lib/sheet.mjs';
 import { generateSolution } from './lib/gemini.mjs';
 import {
@@ -72,10 +80,28 @@ async function main() {
   // DSA_BOT_NOW lets you replay a specific moment - useful for testing and
   // for backfilling a day the runner missed.
   const now = process.env.DSA_BOT_NOW ? new Date(process.env.DSA_BOT_NOW) : new Date();
-  const dayKey = utcDateKey(now);
+  const todayKey = utcDateKey(now);
   const nowMinute = utcMinutesNow(now);
 
-  console.log(`[${now.toISOString()}] probe — clock reads ${istClock(dayKey, nowMinute)}`);
+  console.log(`[${now.toISOString()}] probe — clock reads ${istClock(todayKey, nowMinute)}`);
+
+  // GitHub does not deliver this cron reliably: of the 24 probes a day the
+  // schedule asks for, a handful actually arrive, and they arrive late —
+  // occasionally so late they cross midnight UTC. Such a probe used to read
+  // the clock, decide it was "too early" for the NEW day, and exit, leaving
+  // the day it was actually scheduled for unfinished for good. If yesterday
+  // was a session day that never got committed, finish it before today.
+  let dayKey = todayKey;
+  let backfill = false;
+
+  if (!FORCE && state.last_session_day && state.last_session_day !== todayKey) {
+    const yesterdayKey = shiftDayKey(todayKey, -1);
+    if (state.last_session_day < yesterdayKey && !planDay(yesterdayKey, config).skip) {
+      dayKey = yesterdayKey;
+      backfill = true;
+      console.log(`backfilling ${yesterdayKey} — a session day that never landed`);
+    }
+  }
 
   if (state.last_session_day === dayKey && !FORCE) {
     console.log('already committed today, nothing to do');
@@ -93,7 +119,8 @@ async function main() {
 
   console.log(`plan: ${plan.label ?? 'forced run'}`);
 
-  if (!FORCE) {
+  // A backfilled day is wholly in the past, so there is no window left to wait for.
+  if (!FORCE && !backfill) {
     const gate = timingGate(plan, nowMinute, dayKey, config);
     if (!gate.go) {
       console.log(`waiting — ${gate.reason}`);
@@ -137,7 +164,11 @@ async function main() {
   // The plan sized the session for `count` problems. Fix-ups and notes add
   // commits, so stretch the session backwards at the same pace rather than
   // cramming six commits into nine minutes.
-  const endMinute = Math.min(plan.endMinute ?? nowMinute, nowMinute);
+  // Clamp to the clock so nothing is stamped in the future — but only when the
+  // session is today's. Yesterday's minutes are all already in the past, and
+  // clamping them against this morning's clock would bunch them at midnight.
+  const ceiling = backfill ? Infinity : nowMinute;
+  const endMinute = Math.min(plan.endMinute ?? nowMinute, ceiling);
   const plannedSpread = (plan.endMinute ?? endMinute) - (plan.startMinute ?? endMinute);
   const perCommit = plan.count > 1 ? plannedSpread / (plan.count - 1) : 14;
   const floor = istToUtcMinutes(config.timing.hard_earliest_commit_ist);

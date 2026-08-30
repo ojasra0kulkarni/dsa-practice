@@ -17,6 +17,13 @@ export function utcDateKey(date) {
   return date.toISOString().slice(0, 10);
 }
 
+/** Walk a UTC date key by whole days, e.g. shiftDayKey('2026-08-07', -1). */
+export function shiftDayKey(dayKey, days) {
+  return new Date(Date.parse(`${dayKey}T00:00:00Z`) + days * 86400000)
+    .toISOString()
+    .slice(0, 10);
+}
+
 export function utcMinutesNow(date) {
   return date.getUTCHours() * 60 + date.getUTCMinutes();
 }
