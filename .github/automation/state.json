@@ -76,27 +76,15 @@
     72,
     73,
     74,
-    75
+    75,
+    76,
+    77,
+    79
   ],
   "revisits": {},
-  "last_session_day": "2026-08-30",
-  "day_number": 35,
+  "last_session_day": "2026-08-31",
+  "day_number": 36,
   "recent": [
-    {
-      "date": "2026-08-15",
-      "name": "Count Inversions",
-      "step": 3
-    },
-    {
-      "date": "2026-08-15",
-      "name": "Reverse Pairs",
-      "step": 3
-    },
-    {
-      "date": "2026-08-15",
-      "name": "Maximum Product Subarray",
-      "step": 3
-    },
     {
       "date": "2026-08-16",
       "name": "Binary Search to find X in sorted array",
@@ -280,6 +268,21 @@
     {
       "date": "2026-08-30",
       "name": "Longest Common Prefix",
+      "step": 5
+    },
+    {
+      "date": "2026-08-31",
+      "name": "Isomorphic String",
+      "step": 5
+    },
+    {
+      "date": "2026-08-31",
+      "name": "Check whether one string is a rotation of another",
+      "step": 5
+    },
+    {
+      "date": "2026-08-31",
+      "name": "Sort Characters by frequency",
       "step": 5
     }
   ]
