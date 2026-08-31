@@ -10,3 +10,5 @@ public:
 
     }
 };
+
+// edge case: empty input handled above
