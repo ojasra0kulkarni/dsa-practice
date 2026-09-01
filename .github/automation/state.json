@@ -79,22 +79,14 @@
     75,
     76,
     77,
-    79
+    79,
+    80,
+    82
   ],
   "revisits": {},
-  "last_session_day": "2026-08-31",
-  "day_number": 36,
+  "last_session_day": "2026-09-01",
+  "day_number": 37,
   "recent": [
-    {
-      "date": "2026-08-16",
-      "name": "Binary Search to find X in sorted array",
-      "step": 4
-    },
-    {
-      "date": "2026-08-16",
-      "name": "Implement Lower Bound",
-      "step": 4
-    },
     {
       "date": "2026-08-16",
       "name": "Implement Upper Bound",
@@ -283,6 +275,16 @@
     {
       "date": "2026-08-31",
       "name": "Sort Characters by frequency",
+      "step": 5
+    },
+    {
+      "date": "2026-09-01",
+      "name": "Maximum Nesting Depth of Parenthesis",
+      "step": 5
+    },
+    {
+      "date": "2026-09-01",
+      "name": "Implement Atoi",
       "step": 5
     }
   ]
