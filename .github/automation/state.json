@@ -83,22 +83,14 @@
     80,
     82,
     81,
-    83
+    83,
+    93,
+    84
   ],
   "revisits": {},
-  "last_session_day": "2026-09-03",
-  "day_number": 39,
+  "last_session_day": "2026-09-04",
+  "day_number": 40,
   "recent": [
-    {
-      "date": "2026-08-16",
-      "name": "Floor and Ceil in Sorted Array",
-      "step": 4
-    },
-    {
-      "date": "2026-08-17",
-      "name": "Find the first or last occurrence of a given number in a sorted array",
-      "step": 4
-    },
     {
       "date": "2026-08-18",
       "name": "Count occurrences of a number in a sorted array with duplicates",
@@ -287,6 +279,16 @@
     {
       "date": "2026-09-03",
       "name": "Count Number of Substrings",
+      "step": 5
+    },
+    {
+      "date": "2026-09-04",
+      "name": "Insert a node in Doubly Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-04",
+      "name": "Longest Palindromic Substring",
       "step": 5
     }
   ]
