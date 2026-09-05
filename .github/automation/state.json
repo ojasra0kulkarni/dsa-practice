@@ -85,32 +85,16 @@
     81,
     83,
     93,
-    84
+    84,
+    85,
+    86,
+    87,
+    96
   ],
   "revisits": {},
-  "last_session_day": "2026-09-04",
-  "day_number": 40,
+  "last_session_day": "2026-09-05",
+  "day_number": 41,
   "recent": [
-    {
-      "date": "2026-08-18",
-      "name": "Count occurrences of a number in a sorted array with duplicates",
-      "step": 4
-    },
-    {
-      "date": "2026-08-18",
-      "name": "Search in Rotated Sorted Array I",
-      "step": 4
-    },
-    {
-      "date": "2026-08-19",
-      "name": "Search in Rotated Sorted Array II",
-      "step": 4
-    },
-    {
-      "date": "2026-08-19",
-      "name": "Find minimum in Rotated Sorted Array",
-      "step": 4
-    },
     {
       "date": "2026-08-19",
       "name": "Find out how many times the array has been rotated",
@@ -290,6 +274,26 @@
       "date": "2026-09-04",
       "name": "Longest Palindromic Substring",
       "step": 5
+    },
+    {
+      "date": "2026-09-05",
+      "name": "Sum of Beauty of all substrings",
+      "step": 5
+    },
+    {
+      "date": "2026-09-05",
+      "name": "Reverse Every Word in a String",
+      "step": 5
+    },
+    {
+      "date": "2026-09-05",
+      "name": "Introduction to Linked List - construct and traverse",
+      "step": 6
+    },
+    {
+      "date": "2026-09-05",
+      "name": "Middle of a Linked List",
+      "step": 6
     }
   ]
 }
