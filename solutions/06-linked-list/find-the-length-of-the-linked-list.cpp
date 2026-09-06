@@ -30,3 +30,5 @@ int main(){
     // cout<<s.getLength(nullptr)<<endl;
     return 0;
 }
+
+// edge case: empty input handled above

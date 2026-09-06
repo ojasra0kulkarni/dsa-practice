@@ -89,27 +89,15 @@
     85,
     86,
     87,
-    96
+    96,
+    88,
+    89,
+    90
   ],
   "revisits": {},
-  "last_session_day": "2026-09-05",
-  "day_number": 41,
+  "last_session_day": "2026-09-06",
+  "day_number": 42,
   "recent": [
-    {
-      "date": "2026-08-19",
-      "name": "Find out how many times the array has been rotated",
-      "step": 4
-    },
-    {
-      "date": "2026-08-20",
-      "name": "Single element in a Sorted Array",
-      "step": 4
-    },
-    {
-      "date": "2026-08-20",
-      "name": "Capacity to Ship Packages within D Days",
-      "step": 4
-    },
     {
       "date": "2026-08-21",
       "name": "Find peak element",
@@ -293,6 +281,21 @@
     {
       "date": "2026-09-05",
       "name": "Middle of a Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-06",
+      "name": "Inserting a node in Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-06",
+      "name": "Deleting a node in Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-06",
+      "name": "Find the length of the Linked List",
       "step": 6
     }
   ]
