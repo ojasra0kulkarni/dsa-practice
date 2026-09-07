@@ -92,17 +92,13 @@
     96,
     88,
     89,
-    90
+    90,
+    91
   ],
   "revisits": {},
-  "last_session_day": "2026-09-06",
-  "day_number": 42,
+  "last_session_day": "2026-09-07",
+  "day_number": 43,
   "recent": [
-    {
-      "date": "2026-08-21",
-      "name": "Find peak element",
-      "step": 4
-    },
     {
       "date": "2026-08-22",
       "name": "Find square root of a number in log n",
@@ -296,6 +292,11 @@
     {
       "date": "2026-09-06",
       "name": "Find the length of the Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-07",
+      "name": "Search an element in the Linked List",
       "step": 6
     }
   ]
