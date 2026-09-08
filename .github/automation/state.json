@@ -93,17 +93,13 @@
     88,
     89,
     90,
-    91
+    91,
+    92
   ],
   "revisits": {},
-  "last_session_day": "2026-09-07",
-  "day_number": 43,
+  "last_session_day": "2026-09-08",
+  "day_number": 44,
   "recent": [
-    {
-      "date": "2026-08-22",
-      "name": "Find square root of a number in log n",
-      "step": 4
-    },
     {
       "date": "2026-08-22",
       "name": "Find the Nth root of a number using binary search",
@@ -297,6 +293,11 @@
     {
       "date": "2026-09-07",
       "name": "Search an element in the Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-08",
+      "name": "Introduction to Doubly Linked List",
       "step": 6
     }
   ]

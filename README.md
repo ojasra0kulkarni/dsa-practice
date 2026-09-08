@@ -3,7 +3,7 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**86 / 403 solved (21.3%)**
+**95 / 403 solved (23.6%)**
 
 ## Progress by step
 
@@ -11,8 +11,8 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 |---|------|--------|---|
 | 03 | Solve Problems on Arrays | 40/40 | `██████████████████` |
 | 04 | Binary Search | 32/32 | `██████████████████` |
-| 05 | Strings | 13/15 | `████████████████░░` |
-| 06 | Linked List | 1/31 | `█░░░░░░░░░░░░░░░░░` |
+| 05 | Strings | 15/15 | `██████████████████` |
+| 06 | Linked List | 8/31 | `█████░░░░░░░░░░░░░` |
 | 07 | Recursion | 0/24 | `░░░░░░░░░░░░░░░░░░` |
 | 08 | Bit Manipulation | 0/18 | `░░░░░░░░░░░░░░░░░░` |
 | 09 | Stacks and Queues | 0/30 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,18 +28,18 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-09-08` — Introduction to Doubly Linked List
+- `2026-09-07` — Search an element in the Linked List
+- `2026-09-06` — Find the length of the Linked List
+- `2026-09-06` — Deleting a node in Linked List
+- `2026-09-06` — Inserting a node in Linked List
+- `2026-09-05` — Middle of a Linked List
+- `2026-09-05` — Introduction to Linked List - construct and traverse
+- `2026-09-05` — Reverse Every Word in a String
+- `2026-09-05` — Sum of Beauty of all substrings
 - `2026-09-04` — Longest Palindromic Substring
 - `2026-09-04` — Insert a node in Doubly Linked List
 - `2026-09-03` — Count Number of Substrings
-- `2026-09-02` — Roman Number to Integer and vice versa
-- `2026-09-01` — Implement Atoi
-- `2026-09-01` — Maximum Nesting Depth of Parenthesis
-- `2026-08-31` — Sort Characters by frequency
-- `2026-08-31` — Check whether one string is a rotation of another
-- `2026-08-31` — Isomorphic String
-- `2026-08-30` — Longest Common Prefix
-- `2026-08-30` — Largest odd number in a string
-- `2026-08-30` — Reverse words in a given string
 
 ## Layout
 
