@@ -94,27 +94,15 @@
     89,
     90,
     91,
-    92
+    92,
+    98,
+    94,
+    95
   ],
   "revisits": {},
-  "last_session_day": "2026-09-08",
-  "day_number": 44,
+  "last_session_day": "2026-09-09",
+  "day_number": 45,
   "recent": [
-    {
-      "date": "2026-08-22",
-      "name": "Find the Nth root of a number using binary search",
-      "step": 4
-    },
-    {
-      "date": "2026-08-22",
-      "name": "Koko Eating Bananas",
-      "step": 4
-    },
-    {
-      "date": "2026-08-23",
-      "name": "Median of 2 sorted arrays",
-      "step": 4
-    },
     {
       "date": "2026-08-23",
       "name": "Minimum days to make M bouquets",
@@ -298,6 +286,21 @@
     {
       "date": "2026-09-08",
       "name": "Introduction to Doubly Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-09",
+      "name": "Reverse a Linked List (Recursive)",
+      "step": 6
+    },
+    {
+      "date": "2026-09-09",
+      "name": "Delete a node in Doubly Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-09",
+      "name": "Reverse a Doubly Linked List",
       "step": 6
     }
   ]
