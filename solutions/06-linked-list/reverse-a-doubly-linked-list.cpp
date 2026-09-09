@@ -32,3 +32,5 @@ Node* reverseDLL(Node *head) {
     return p;
     
 }
+
+// note to self: revisit the two pointer variant
