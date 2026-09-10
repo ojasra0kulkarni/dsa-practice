@@ -97,32 +97,16 @@
     92,
     98,
     94,
-    95
+    95,
+    105,
+    97,
+    99,
+    100
   ],
   "revisits": {},
-  "last_session_day": "2026-09-09",
-  "day_number": 45,
+  "last_session_day": "2026-09-10",
+  "day_number": 46,
   "recent": [
-    {
-      "date": "2026-08-23",
-      "name": "Minimum days to make M bouquets",
-      "step": 4
-    },
-    {
-      "date": "2026-08-24",
-      "name": "Find the smallest Divisor",
-      "step": 4
-    },
-    {
-      "date": "2026-08-24",
-      "name": "Kth Missing Positive Number",
-      "step": 4
-    },
-    {
-      "date": "2026-08-24",
-      "name": "Aggressive Cows",
-      "step": 4
-    },
     {
       "date": "2026-08-25",
       "name": "Book Allocation Problem",
@@ -301,6 +285,26 @@
     {
       "date": "2026-09-09",
       "name": "Reverse a Doubly Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-10",
+      "name": "Delete the middle node of Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-10",
+      "name": "Reverse a Linked List (Iterative)",
+      "step": 6
+    },
+    {
+      "date": "2026-09-10",
+      "name": "Detect a loop in Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-10",
+      "name": "Find the starting point of the loop in Linked List",
       "step": 6
     }
   ]

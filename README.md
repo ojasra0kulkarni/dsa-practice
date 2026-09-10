@@ -3,7 +3,7 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**95 / 403 solved (23.6%)**
+**102 / 403 solved (25.3%)**
 
 ## Progress by step
 
@@ -12,7 +12,7 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 | 03 | Solve Problems on Arrays | 40/40 | `██████████████████` |
 | 04 | Binary Search | 32/32 | `██████████████████` |
 | 05 | Strings | 15/15 | `██████████████████` |
-| 06 | Linked List | 8/31 | `█████░░░░░░░░░░░░░` |
+| 06 | Linked List | 15/31 | `█████████░░░░░░░░░` |
 | 07 | Recursion | 0/24 | `░░░░░░░░░░░░░░░░░░` |
 | 08 | Bit Manipulation | 0/18 | `░░░░░░░░░░░░░░░░░░` |
 | 09 | Stacks and Queues | 0/30 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,18 +28,18 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-09-10` — Find the starting point of the loop in Linked List
+- `2026-09-10` — Detect a loop in Linked List
+- `2026-09-10` — Reverse a Linked List (Iterative)
+- `2026-09-10` — Delete the middle node of Linked List
+- `2026-09-09` — Reverse a Doubly Linked List
+- `2026-09-09` — Delete a node in Doubly Linked List
+- `2026-09-09` — Reverse a Linked List (Recursive)
 - `2026-09-08` — Introduction to Doubly Linked List
 - `2026-09-07` — Search an element in the Linked List
 - `2026-09-06` — Find the length of the Linked List
 - `2026-09-06` — Deleting a node in Linked List
 - `2026-09-06` — Inserting a node in Linked List
-- `2026-09-05` — Middle of a Linked List
-- `2026-09-05` — Introduction to Linked List - construct and traverse
-- `2026-09-05` — Reverse Every Word in a String
-- `2026-09-05` — Sum of Beauty of all substrings
-- `2026-09-04` — Longest Palindromic Substring
-- `2026-09-04` — Insert a node in Doubly Linked List
-- `2026-09-03` — Count Number of Substrings
 
 ## Layout
 
