@@ -101,27 +101,15 @@
     105,
     97,
     99,
-    100
+    100,
+    101,
+    102,
+    103
   ],
   "revisits": {},
-  "last_session_day": "2026-09-10",
-  "day_number": 46,
+  "last_session_day": "2026-09-11",
+  "day_number": 47,
   "recent": [
-    {
-      "date": "2026-08-25",
-      "name": "Book Allocation Problem",
-      "step": 4
-    },
-    {
-      "date": "2026-08-25",
-      "name": "Split array - Largest Sum",
-      "step": 4
-    },
-    {
-      "date": "2026-08-26",
-      "name": "Find Peak Element in 2D matrix",
-      "step": 4
-    },
     {
       "date": "2026-08-26",
       "name": "Painter's Partition",
@@ -305,6 +293,21 @@
     {
       "date": "2026-09-10",
       "name": "Find the starting point of the loop in Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-11",
+      "name": "Length of Loop in Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-11",
+      "name": "Check if Linked List is palindrome or not",
+      "step": 6
+    },
+    {
+      "date": "2026-09-11",
+      "name": "Segregate odd and even nodes in Linked List",
       "step": 6
     }
   ]
