@@ -104,37 +104,17 @@
     100,
     101,
     102,
-    103
+    103,
+    104,
+    115,
+    106,
+    107,
+    113
   ],
   "revisits": {},
-  "last_session_day": "2026-09-11",
-  "day_number": 47,
+  "last_session_day": "2026-09-12",
+  "day_number": 48,
   "recent": [
-    {
-      "date": "2026-08-26",
-      "name": "Painter's Partition",
-      "step": 4
-    },
-    {
-      "date": "2026-08-27",
-      "name": "Minimize Max Distance to Gas Station",
-      "step": 4
-    },
-    {
-      "date": "2026-08-28",
-      "name": "Kth element of 2 sorted arrays",
-      "step": 4
-    },
-    {
-      "date": "2026-08-28",
-      "name": "Find the row with maximum number of 1s",
-      "step": 4
-    },
-    {
-      "date": "2026-08-29",
-      "name": "Search in a 2D matrix",
-      "step": 4
-    },
     {
       "date": "2026-08-29",
       "name": "Check if two strings are anagram of each other",
@@ -308,6 +288,31 @@
     {
       "date": "2026-09-11",
       "name": "Segregate odd and even nodes in Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-12",
+      "name": "Remove Nth node from the back of the Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-12",
+      "name": "Rotate a Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-12",
+      "name": "Sort Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-12",
+      "name": "Sort a Linked List of 0s 1s and 2s by changing links",
+      "step": 6
+    },
+    {
+      "date": "2026-09-12",
+      "name": "Remove duplicates from sorted Doubly Linked List",
       "step": 6
     }
   ]
