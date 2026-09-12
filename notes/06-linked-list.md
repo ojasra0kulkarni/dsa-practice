@@ -20,3 +20,10 @@ Make two separate lists, one for odd values and one for even values. Then just j
 
 - Remember to set the even list's tail next to nullptr to avoid cycles.
 - TC O(N), SC O(1)
+
+## Remove Nth node from the back of the Linked List
+
+Dummy node makes head removal easy. Move fast pointer n steps, then move both until fast hits the end. Slow will be right before the node to delete.
+
+- Need a dummy node to simplify removing the head.
+- TC O(L), SC O(1)
