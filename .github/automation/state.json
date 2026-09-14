@@ -112,22 +112,14 @@
     113,
     108,
     109,
-    110
+    110,
+    111,
+    112
   ],
   "revisits": {},
-  "last_session_day": "2026-09-13",
-  "day_number": 49,
+  "last_session_day": "2026-09-14",
+  "day_number": 50,
   "recent": [
-    {
-      "date": "2026-08-30",
-      "name": "Remove outermost Parenthesis",
-      "step": 5
-    },
-    {
-      "date": "2026-08-30",
-      "name": "Reverse words in a given string",
-      "step": 5
-    },
     {
       "date": "2026-08-30",
       "name": "Largest odd number in a string",
@@ -316,6 +308,16 @@
     {
       "date": "2026-09-13",
       "name": "Add 2 numbers in Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-14",
+      "name": "Delete all occurrences of a key in Doubly Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-14",
+      "name": "Find pairs with given sum in Doubly Linked List",
       "step": 6
     }
   ]
