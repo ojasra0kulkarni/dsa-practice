@@ -27,3 +27,10 @@ Dummy node makes head removal easy. Move fast pointer n steps, then move both un
 
 - Need a dummy node to simplify removing the head.
 - TC O(L), SC O(1)
+
+## Flattening of Linked List
+
+Used a recursive approach. First flatten the 'next' part of the list, then merge the current node's 'bottom' list with the flattened 'next' part.
+
+- remember to append the remaining nodes if one list finishes merging before the other
+- TC O(N), SC O(K)
