@@ -3,7 +3,7 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**102 / 403 solved (25.3%)**
+**118 / 403 solved (29.3%)**
 
 ## Progress by step
 
@@ -12,8 +12,8 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 | 03 | Solve Problems on Arrays | 40/40 | `██████████████████` |
 | 04 | Binary Search | 32/32 | `██████████████████` |
 | 05 | Strings | 15/15 | `██████████████████` |
-| 06 | Linked List | 15/31 | `█████████░░░░░░░░░` |
-| 07 | Recursion | 0/24 | `░░░░░░░░░░░░░░░░░░` |
+| 06 | Linked List | 30/31 | `█████████████████░` |
+| 07 | Recursion | 1/24 | `█░░░░░░░░░░░░░░░░░` |
 | 08 | Bit Manipulation | 0/18 | `░░░░░░░░░░░░░░░░░░` |
 | 09 | Stacks and Queues | 0/30 | `░░░░░░░░░░░░░░░░░░` |
 | 10 | Sliding Window and Two Pointer | 0/12 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,18 +28,18 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
-- `2026-09-10` — Find the starting point of the loop in Linked List
-- `2026-09-10` — Detect a loop in Linked List
-- `2026-09-10` — Reverse a Linked List (Iterative)
-- `2026-09-10` — Delete the middle node of Linked List
-- `2026-09-09` — Reverse a Doubly Linked List
-- `2026-09-09` — Delete a node in Doubly Linked List
-- `2026-09-09` — Reverse a Linked List (Recursive)
-- `2026-09-08` — Introduction to Doubly Linked List
-- `2026-09-07` — Search an element in the Linked List
-- `2026-09-06` — Find the length of the Linked List
-- `2026-09-06` — Deleting a node in Linked List
-- `2026-09-06` — Inserting a node in Linked List
+- `2026-09-15` — Reverse a stack using recursion
+- `2026-09-15` — Flattening of Linked List
+- `2026-09-15` — Reverse Linked List in group of given size K
+- `2026-09-14` — Find pairs with given sum in Doubly Linked List
+- `2026-09-14` — Delete all occurrences of a key in Doubly Linked List
+- `2026-09-13` — Add 2 numbers in Linked List
+- `2026-09-13` — Add 1 to a number represented by Linked List
+- `2026-09-13` — Find the intersection point of Y Linked List
+- `2026-09-12` — Remove duplicates from sorted Doubly Linked List
+- `2026-09-12` — Sort a Linked List of 0s 1s and 2s by changing links
+- `2026-09-12` — Sort Linked List
+- `2026-09-12` — Rotate a Linked List
 
 ## Layout
 

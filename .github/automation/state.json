@@ -114,27 +114,15 @@
     109,
     110,
     111,
-    112
+    112,
+    114,
+    116,
+    122
   ],
   "revisits": {},
-  "last_session_day": "2026-09-14",
-  "day_number": 50,
+  "last_session_day": "2026-09-15",
+  "day_number": 51,
   "recent": [
-    {
-      "date": "2026-08-30",
-      "name": "Largest odd number in a string",
-      "step": 5
-    },
-    {
-      "date": "2026-08-30",
-      "name": "Longest Common Prefix",
-      "step": 5
-    },
-    {
-      "date": "2026-08-31",
-      "name": "Isomorphic String",
-      "step": 5
-    },
     {
       "date": "2026-08-31",
       "name": "Check whether one string is a rotation of another",
@@ -319,6 +307,21 @@
       "date": "2026-09-14",
       "name": "Find pairs with given sum in Doubly Linked List",
       "step": 6
+    },
+    {
+      "date": "2026-09-15",
+      "name": "Reverse Linked List in group of given size K",
+      "step": 6
+    },
+    {
+      "date": "2026-09-15",
+      "name": "Flattening of Linked List",
+      "step": 6
+    },
+    {
+      "date": "2026-09-15",
+      "name": "Reverse a stack using recursion",
+      "step": 7
     }
   ]
 }
