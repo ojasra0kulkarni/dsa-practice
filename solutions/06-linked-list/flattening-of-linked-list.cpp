@@ -45,3 +45,5 @@ public:
         return head;
     }
 };
+
+// note to self: revisit the two pointer variant
