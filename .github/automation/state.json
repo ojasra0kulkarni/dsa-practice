@@ -117,27 +117,15 @@
     112,
     114,
     116,
-    122
+    122,
+    117,
+    118,
+    119
   ],
   "revisits": {},
-  "last_session_day": "2026-09-15",
-  "day_number": 51,
+  "last_session_day": "2026-09-16",
+  "day_number": 52,
   "recent": [
-    {
-      "date": "2026-08-31",
-      "name": "Check whether one string is a rotation of another",
-      "step": 5
-    },
-    {
-      "date": "2026-08-31",
-      "name": "Sort Characters by frequency",
-      "step": 5
-    },
-    {
-      "date": "2026-09-01",
-      "name": "Maximum Nesting Depth of Parenthesis",
-      "step": 5
-    },
     {
       "date": "2026-09-01",
       "name": "Implement Atoi",
@@ -321,6 +309,21 @@
     {
       "date": "2026-09-15",
       "name": "Reverse a stack using recursion",
+      "step": 7
+    },
+    {
+      "date": "2026-09-16",
+      "name": "Clone a Linked List with random and next pointer",
+      "step": 6
+    },
+    {
+      "date": "2026-09-16",
+      "name": "Recursive Implementation of atoi",
+      "step": 7
+    },
+    {
+      "date": "2026-09-16",
+      "name": "Pow(x, n)",
       "step": 7
     }
   ]
