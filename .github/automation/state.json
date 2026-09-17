@@ -120,17 +120,13 @@
     122,
     117,
     118,
-    119
+    119,
+    120
   ],
   "revisits": {},
-  "last_session_day": "2026-09-16",
-  "day_number": 52,
+  "last_session_day": "2026-09-17",
+  "day_number": 53,
   "recent": [
-    {
-      "date": "2026-09-01",
-      "name": "Implement Atoi",
-      "step": 5
-    },
     {
       "date": "2026-09-02",
       "name": "Roman Number to Integer and vice versa",
@@ -324,6 +320,11 @@
     {
       "date": "2026-09-16",
       "name": "Pow(x, n)",
+      "step": 7
+    },
+    {
+      "date": "2026-09-17",
+      "name": "Count Good numbers",
       "step": 7
     }
   ]
