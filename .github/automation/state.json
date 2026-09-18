@@ -121,27 +121,15 @@
     117,
     118,
     119,
-    120
+    120,
+    123,
+    121,
+    124
   ],
   "revisits": {},
-  "last_session_day": "2026-09-17",
-  "day_number": 53,
+  "last_session_day": "2026-09-18",
+  "day_number": 54,
   "recent": [
-    {
-      "date": "2026-09-02",
-      "name": "Roman Number to Integer and vice versa",
-      "step": 5
-    },
-    {
-      "date": "2026-09-03",
-      "name": "Count Number of Substrings",
-      "step": 5
-    },
-    {
-      "date": "2026-09-04",
-      "name": "Insert a node in Doubly Linked List",
-      "step": 6
-    },
     {
       "date": "2026-09-04",
       "name": "Longest Palindromic Substring",
@@ -325,6 +313,21 @@
     {
       "date": "2026-09-17",
       "name": "Count Good numbers",
+      "step": 7
+    },
+    {
+      "date": "2026-09-18",
+      "name": "Generate all binary strings",
+      "step": 7
+    },
+    {
+      "date": "2026-09-18",
+      "name": "Sort a stack using recursion",
+      "step": 7
+    },
+    {
+      "date": "2026-09-18",
+      "name": "Generate Parenthesis",
       "step": 7
     }
   ]
