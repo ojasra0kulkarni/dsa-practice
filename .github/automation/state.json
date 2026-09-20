@@ -126,27 +126,15 @@
     121,
     124,
     133,
-    125
+    125,
+    126,
+    134,
+    136
   ],
   "revisits": {},
-  "last_session_day": "2026-09-19",
-  "day_number": 55,
+  "last_session_day": "2026-09-20",
+  "day_number": 56,
   "recent": [
-    {
-      "date": "2026-09-05",
-      "name": "Reverse Every Word in a String",
-      "step": 5
-    },
-    {
-      "date": "2026-09-05",
-      "name": "Introduction to Linked List - construct and traverse",
-      "step": 6
-    },
-    {
-      "date": "2026-09-05",
-      "name": "Middle of a Linked List",
-      "step": 6
-    },
     {
       "date": "2026-09-06",
       "name": "Inserting a node in Linked List",
@@ -330,6 +318,21 @@
     {
       "date": "2026-09-19",
       "name": "Print all subsequences / Power Set",
+      "step": 7
+    },
+    {
+      "date": "2026-09-20",
+      "name": "Count all subsequences with sum K",
+      "step": 7
+    },
+    {
+      "date": "2026-09-20",
+      "name": "Palindrome Partitioning",
+      "step": 7
+    },
+    {
+      "date": "2026-09-20",
+      "name": "N Queen",
       "step": 7
     }
   ]
