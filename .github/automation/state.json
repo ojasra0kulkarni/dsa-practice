@@ -129,22 +129,14 @@
     125,
     126,
     134,
-    136
+    136,
+    127,
+    128
   ],
   "revisits": {},
-  "last_session_day": "2026-09-20",
-  "day_number": 56,
+  "last_session_day": "2026-09-28",
+  "day_number": 57,
   "recent": [
-    {
-      "date": "2026-09-06",
-      "name": "Inserting a node in Linked List",
-      "step": 6
-    },
-    {
-      "date": "2026-09-06",
-      "name": "Deleting a node in Linked List",
-      "step": 6
-    },
     {
       "date": "2026-09-06",
       "name": "Find the length of the Linked List",
@@ -333,6 +325,16 @@
     {
       "date": "2026-09-20",
       "name": "N Queen",
+      "step": 7
+    },
+    {
+      "date": "2026-09-28",
+      "name": "Check if there exists a subsequence with sum K",
+      "step": 7
+    },
+    {
+      "date": "2026-09-28",
+      "name": "Combination Sum",
       "step": 7
     }
   ]
