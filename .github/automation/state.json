@@ -131,17 +131,13 @@
     134,
     136,
     127,
-    128
+    128,
+    131
   ],
   "revisits": {},
-  "last_session_day": "2026-09-28",
-  "day_number": 57,
+  "last_session_day": "2026-09-29",
+  "day_number": 58,
   "recent": [
-    {
-      "date": "2026-09-06",
-      "name": "Find the length of the Linked List",
-      "step": 6
-    },
     {
       "date": "2026-09-07",
       "name": "Search an element in the Linked List",
@@ -335,6 +331,11 @@
     {
       "date": "2026-09-28",
       "name": "Combination Sum",
+      "step": 7
+    },
+    {
+      "date": "2026-09-29",
+      "name": "Subset Sum II",
       "step": 7
     }
   ]

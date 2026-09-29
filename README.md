@@ -3,7 +3,7 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**125 / 403 solved (31.0%)**
+**133 / 403 solved (33.0%)**
 
 ## Progress by step
 
@@ -13,7 +13,7 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 | 04 | Binary Search | 32/32 | `██████████████████` |
 | 05 | Strings | 15/15 | `██████████████████` |
 | 06 | Linked List | 31/31 | `██████████████████` |
-| 07 | Recursion | 7/24 | `█████░░░░░░░░░░░░░` |
+| 07 | Recursion | 15/24 | `███████████░░░░░░░` |
 | 08 | Bit Manipulation | 0/18 | `░░░░░░░░░░░░░░░░░░` |
 | 09 | Stacks and Queues | 0/30 | `░░░░░░░░░░░░░░░░░░` |
 | 10 | Sliding Window and Two Pointer | 0/12 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,18 +28,18 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-09-29` — Subset Sum II
+- `2026-09-28` — Combination Sum
+- `2026-09-28` — Check if there exists a subsequence with sum K
+- `2026-09-20` — N Queen
+- `2026-09-20` — Palindrome Partitioning
+- `2026-09-20` — Count all subsequences with sum K
+- `2026-09-19` — Print all subsequences / Power Set
+- `2026-09-19` — Letter Combinations of a Phone number
 - `2026-09-18` — Generate Parenthesis
 - `2026-09-18` — Sort a stack using recursion
 - `2026-09-18` — Generate all binary strings
 - `2026-09-17` — Count Good numbers
-- `2026-09-16` — Pow(x, n)
-- `2026-09-16` — Recursive Implementation of atoi
-- `2026-09-16` — Clone a Linked List with random and next pointer
-- `2026-09-15` — Reverse a stack using recursion
-- `2026-09-15` — Flattening of Linked List
-- `2026-09-15` — Reverse Linked List in group of given size K
-- `2026-09-14` — Find pairs with given sum in Doubly Linked List
-- `2026-09-14` — Delete all occurrences of a key in Doubly Linked List
 
 ## Layout
 
