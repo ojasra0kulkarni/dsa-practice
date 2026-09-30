@@ -132,22 +132,14 @@
     136,
     127,
     128,
-    131
+    131,
+    129,
+    130
   ],
   "revisits": {},
-  "last_session_day": "2026-09-29",
-  "day_number": 58,
+  "last_session_day": "2026-09-30",
+  "day_number": 59,
   "recent": [
-    {
-      "date": "2026-09-07",
-      "name": "Search an element in the Linked List",
-      "step": 6
-    },
-    {
-      "date": "2026-09-08",
-      "name": "Introduction to Doubly Linked List",
-      "step": 6
-    },
     {
       "date": "2026-09-09",
       "name": "Reverse a Linked List (Recursive)",
@@ -336,6 +328,16 @@
     {
       "date": "2026-09-29",
       "name": "Subset Sum II",
+      "step": 7
+    },
+    {
+      "date": "2026-09-30",
+      "name": "Combination Sum II",
+      "step": 7
+    },
+    {
+      "date": "2026-09-30",
+      "name": "Subset Sum I",
       "step": 7
     }
   ]
