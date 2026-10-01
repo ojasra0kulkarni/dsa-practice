@@ -134,17 +134,13 @@
     128,
     131,
     129,
-    130
+    130,
+    132
   ],
   "revisits": {},
-  "last_session_day": "2026-09-30",
-  "day_number": 59,
+  "last_session_day": "2026-10-01",
+  "day_number": 60,
   "recent": [
-    {
-      "date": "2026-09-09",
-      "name": "Reverse a Linked List (Recursive)",
-      "step": 6
-    },
     {
       "date": "2026-09-09",
       "name": "Delete a node in Doubly Linked List",
@@ -338,6 +334,11 @@
     {
       "date": "2026-09-30",
       "name": "Subset Sum I",
+      "step": 7
+    },
+    {
+      "date": "2026-10-01",
+      "name": "Combination Sum III",
       "step": 7
     }
   ]
