@@ -135,27 +135,15 @@
     131,
     129,
     130,
-    132
+    132,
+    135,
+    137,
+    138
   ],
   "revisits": {},
-  "last_session_day": "2026-10-01",
-  "day_number": 60,
+  "last_session_day": "2026-10-02",
+  "day_number": 61,
   "recent": [
-    {
-      "date": "2026-09-09",
-      "name": "Delete a node in Doubly Linked List",
-      "step": 6
-    },
-    {
-      "date": "2026-09-09",
-      "name": "Reverse a Doubly Linked List",
-      "step": 6
-    },
-    {
-      "date": "2026-09-10",
-      "name": "Delete the middle node of Linked List",
-      "step": 6
-    },
     {
       "date": "2026-09-10",
       "name": "Reverse a Linked List (Iterative)",
@@ -339,6 +327,21 @@
     {
       "date": "2026-10-01",
       "name": "Combination Sum III",
+      "step": 7
+    },
+    {
+      "date": "2026-10-02",
+      "name": "Word Search",
+      "step": 7
+    },
+    {
+      "date": "2026-10-02",
+      "name": "Rat in a Maze",
+      "step": 7
+    },
+    {
+      "date": "2026-10-02",
+      "name": "Word Break",
       "step": 7
     }
   ]
