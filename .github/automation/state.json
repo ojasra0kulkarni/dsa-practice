@@ -138,22 +138,14 @@
     132,
     135,
     137,
-    138
+    138,
+    139,
+    140
   ],
   "revisits": {},
-  "last_session_day": "2026-10-02",
-  "day_number": 61,
+  "last_session_day": "2026-10-03",
+  "day_number": 62,
   "recent": [
-    {
-      "date": "2026-09-10",
-      "name": "Reverse a Linked List (Iterative)",
-      "step": 6
-    },
-    {
-      "date": "2026-09-10",
-      "name": "Detect a loop in Linked List",
-      "step": 6
-    },
     {
       "date": "2026-09-10",
       "name": "Find the starting point of the loop in Linked List",
@@ -342,6 +334,16 @@
     {
       "date": "2026-10-02",
       "name": "Word Break",
+      "step": 7
+    },
+    {
+      "date": "2026-10-03",
+      "name": "M Coloring Problem",
+      "step": 7
+    },
+    {
+      "date": "2026-10-03",
+      "name": "Sudoku Solver",
       "step": 7
     }
   ]
