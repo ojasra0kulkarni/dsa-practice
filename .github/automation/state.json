@@ -140,27 +140,15 @@
     137,
     138,
     139,
-    140
+    140,
+    146,
+    141,
+    142
   ],
   "revisits": {},
-  "last_session_day": "2026-10-03",
-  "day_number": 62,
+  "last_session_day": "2026-10-04",
+  "day_number": 63,
   "recent": [
-    {
-      "date": "2026-09-10",
-      "name": "Find the starting point of the loop in Linked List",
-      "step": 6
-    },
-    {
-      "date": "2026-09-11",
-      "name": "Length of Loop in Linked List",
-      "step": 6
-    },
-    {
-      "date": "2026-09-11",
-      "name": "Check if Linked List is palindrome or not",
-      "step": 6
-    },
     {
       "date": "2026-09-11",
       "name": "Segregate odd and even nodes in Linked List",
@@ -345,6 +333,21 @@
       "date": "2026-10-03",
       "name": "Sudoku Solver",
       "step": 7
+    },
+    {
+      "date": "2026-10-04",
+      "name": "Count the number of set bits",
+      "step": 8
+    },
+    {
+      "date": "2026-10-04",
+      "name": "Expression Add Operators",
+      "step": 7
+    },
+    {
+      "date": "2026-10-04",
+      "name": "Introduction to Bit Manipulation",
+      "step": 8
     }
   ]
 }
