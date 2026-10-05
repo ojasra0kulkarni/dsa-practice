@@ -143,17 +143,13 @@
     140,
     146,
     141,
-    142
+    142,
+    147
   ],
   "revisits": {},
-  "last_session_day": "2026-10-04",
-  "day_number": 63,
+  "last_session_day": "2026-10-05",
+  "day_number": 64,
   "recent": [
-    {
-      "date": "2026-09-11",
-      "name": "Segregate odd and even nodes in Linked List",
-      "step": 6
-    },
     {
       "date": "2026-09-12",
       "name": "Remove Nth node from the back of the Linked List",
@@ -347,6 +343,11 @@
     {
       "date": "2026-10-04",
       "name": "Introduction to Bit Manipulation",
+      "step": 8
+    },
+    {
+      "date": "2026-10-05",
+      "name": "Set or Unset the rightmost unset bit",
       "step": 8
     }
   ]
