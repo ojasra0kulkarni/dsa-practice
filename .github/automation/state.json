@@ -146,27 +146,15 @@
     142,
     147,
     143,
-    150
+    150,
+    153,
+    144,
+    154
   ],
   "revisits": {},
-  "last_session_day": "2026-10-06",
-  "day_number": 65,
+  "last_session_day": "2026-10-07",
+  "day_number": 66,
   "recent": [
-    {
-      "date": "2026-09-12",
-      "name": "Sort Linked List",
-      "step": 6
-    },
-    {
-      "date": "2026-09-12",
-      "name": "Sort a Linked List of 0s 1s and 2s by changing links",
-      "step": 6
-    },
-    {
-      "date": "2026-09-12",
-      "name": "Remove duplicates from sorted Doubly Linked List",
-      "step": 6
-    },
     {
       "date": "2026-09-13",
       "name": "Find the intersection point of Y Linked List",
@@ -350,6 +338,21 @@
     {
       "date": "2026-10-06",
       "name": "Count number of bits to be flipped to convert A to B",
+      "step": 8
+    },
+    {
+      "date": "2026-10-07",
+      "name": "Find xor of numbers from L to R",
+      "step": 8
+    },
+    {
+      "date": "2026-10-07",
+      "name": "Check if a number is odd or not",
+      "step": 8
+    },
+    {
+      "date": "2026-10-07",
+      "name": "Find the two numbers appearing odd number of times",
       "step": 8
     }
   ]

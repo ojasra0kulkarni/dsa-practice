@@ -3,7 +3,7 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**144 / 403 solved (35.7%)**
+**150 / 403 solved (37.2%)**
 
 ## Progress by step
 
@@ -14,7 +14,7 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 | 05 | Strings | 15/15 | `██████████████████` |
 | 06 | Linked List | 31/31 | `██████████████████` |
 | 07 | Recursion | 24/24 | `██████████████████` |
-| 08 | Bit Manipulation | 2/18 | `██░░░░░░░░░░░░░░░░` |
+| 08 | Bit Manipulation | 8/18 | `████████░░░░░░░░░░` |
 | 09 | Stacks and Queues | 0/30 | `░░░░░░░░░░░░░░░░░░` |
 | 10 | Sliding Window and Two Pointer | 0/12 | `░░░░░░░░░░░░░░░░░░` |
 | 11 | Heaps | 0/17 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,18 +28,18 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-10-07` — Find the two numbers appearing odd number of times
+- `2026-10-07` — Check if a number is odd or not
+- `2026-10-07` — Find xor of numbers from L to R
+- `2026-10-06` — Count number of bits to be flipped to convert A to B
+- `2026-10-06` — Check if the i-th bit is set or not
+- `2026-10-05` — Set or Unset the rightmost unset bit
 - `2026-10-04` — Introduction to Bit Manipulation
 - `2026-10-04` — Expression Add Operators
 - `2026-10-04` — Count the number of set bits
 - `2026-10-03` — Sudoku Solver
 - `2026-10-03` — M Coloring Problem
 - `2026-10-02` — Word Break
-- `2026-10-02` — Rat in a Maze
-- `2026-10-02` — Word Search
-- `2026-10-01` — Combination Sum III
-- `2026-09-30` — Subset Sum I
-- `2026-09-30` — Combination Sum II
-- `2026-09-29` — Subset Sum II
 
 ## Layout
 
