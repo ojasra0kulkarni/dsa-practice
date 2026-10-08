@@ -149,17 +149,13 @@
     150,
     153,
     144,
-    154
+    154,
+    145
   ],
   "revisits": {},
-  "last_session_day": "2026-10-07",
-  "day_number": 66,
+  "last_session_day": "2026-10-08",
+  "day_number": 67,
   "recent": [
-    {
-      "date": "2026-09-13",
-      "name": "Find the intersection point of Y Linked List",
-      "step": 6
-    },
     {
       "date": "2026-09-13",
       "name": "Add 1 to a number represented by Linked List",
@@ -353,6 +349,11 @@
     {
       "date": "2026-10-07",
       "name": "Find the two numbers appearing odd number of times",
+      "step": 8
+    },
+    {
+      "date": "2026-10-08",
+      "name": "Check if a number is power of 2 or not",
       "step": 8
     }
   ]
