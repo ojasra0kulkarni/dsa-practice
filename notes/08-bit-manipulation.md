@@ -13,3 +13,10 @@ The XOR sum from 1 to N follows a pattern based on N modulo 4. We can find the X
 
 - Remember xorTillN(0) for L=1 should be 0, which the pattern correctly handles.
 - TC O(1), SC O(1)
+
+## Check if a number is power of 2 or not
+
+A number is a power of 2 if it's positive and has only one bit set. The bit trick `n & (n - 1)` clears the least significant set bit.
+
+- Don't forget to handle negative numbers and zero, as they are not powers of two.
+- TC O(1), SC O(1)
