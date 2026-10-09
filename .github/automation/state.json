@@ -150,17 +150,13 @@
     153,
     144,
     154,
-    145
+    145,
+    148
   ],
   "revisits": {},
-  "last_session_day": "2026-10-08",
-  "day_number": 67,
+  "last_session_day": "2026-10-09",
+  "day_number": 68,
   "recent": [
-    {
-      "date": "2026-09-13",
-      "name": "Add 1 to a number represented by Linked List",
-      "step": 6
-    },
     {
       "date": "2026-09-13",
       "name": "Add 2 numbers in Linked List",
@@ -354,6 +350,11 @@
     {
       "date": "2026-10-08",
       "name": "Check if a number is power of 2 or not",
+      "step": 8
+    },
+    {
+      "date": "2026-10-09",
+      "name": "Swap two numbers without a temp variable",
       "step": 8
     }
   ]

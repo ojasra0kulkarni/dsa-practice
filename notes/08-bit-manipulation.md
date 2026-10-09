@@ -20,3 +20,10 @@ A number is a power of 2 if it's positive and has only one bit set. The bit tric
 
 - Don't forget to handle negative numbers and zero, as they are not powers of two.
 - TC O(1), SC O(1)
+
+## Swap two numbers without a temp variable
+
+Using XOR properties, a number XORed with itself is 0, and a^b^b is a. We can use this to swap without extra space.
+
+- If 'a' and 'b' reference the exact same memory location, the variable will become 0.
+- TC O(1), SC O(1)
