@@ -151,22 +151,14 @@
     144,
     154,
     145,
-    148
+    148,
+    149,
+    151
   ],
   "revisits": {},
-  "last_session_day": "2026-10-09",
-  "day_number": 68,
+  "last_session_day": "2026-10-10",
+  "day_number": 69,
   "recent": [
-    {
-      "date": "2026-09-13",
-      "name": "Add 2 numbers in Linked List",
-      "step": 6
-    },
-    {
-      "date": "2026-09-14",
-      "name": "Delete all occurrences of a key in Doubly Linked List",
-      "step": 6
-    },
     {
       "date": "2026-09-14",
       "name": "Find pairs with given sum in Doubly Linked List",
@@ -355,6 +347,16 @@
     {
       "date": "2026-10-09",
       "name": "Swap two numbers without a temp variable",
+      "step": 8
+    },
+    {
+      "date": "2026-10-10",
+      "name": "Divide two integers without using multiplication division and mod operator",
+      "step": 8
+    },
+    {
+      "date": "2026-10-10",
+      "name": "Find the number that appears odd number of times",
       "step": 8
     }
   ]

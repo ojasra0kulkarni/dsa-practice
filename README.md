@@ -3,7 +3,7 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**151 / 403 solved (37.5%)**
+**154 / 403 solved (38.2%)**
 
 ## Progress by step
 
@@ -14,7 +14,7 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 | 05 | Strings | 15/15 | `██████████████████` |
 | 06 | Linked List | 31/31 | `██████████████████` |
 | 07 | Recursion | 24/24 | `██████████████████` |
-| 08 | Bit Manipulation | 9/18 | `█████████░░░░░░░░░` |
+| 08 | Bit Manipulation | 12/18 | `████████████░░░░░░` |
 | 09 | Stacks and Queues | 0/30 | `░░░░░░░░░░░░░░░░░░` |
 | 10 | Sliding Window and Two Pointer | 0/12 | `░░░░░░░░░░░░░░░░░░` |
 | 11 | Heaps | 0/17 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,6 +28,9 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-10-10` — Find the number that appears odd number of times
+- `2026-10-10` — Divide two integers without using multiplication division and mod operator
+- `2026-10-09` — Swap two numbers without a temp variable
 - `2026-10-08` — Check if a number is power of 2 or not
 - `2026-10-07` — Find the two numbers appearing odd number of times
 - `2026-10-07` — Check if a number is odd or not
@@ -37,9 +40,6 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 - `2026-10-05` — Set or Unset the rightmost unset bit
 - `2026-10-04` — Introduction to Bit Manipulation
 - `2026-10-04` — Expression Add Operators
-- `2026-10-04` — Count the number of set bits
-- `2026-10-03` — Sudoku Solver
-- `2026-10-03` — M Coloring Problem
 
 ## Layout
 
