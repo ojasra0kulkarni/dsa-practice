@@ -27,3 +27,10 @@ Using XOR properties, a number XORed with itself is 0, and a^b^b is a. We can us
 
 - If 'a' and 'b' reference the exact same memory location, the variable will become 0.
 - TC O(1), SC O(1)
+
+## All Divisors of a Number
+
+Iterate from 1 to sqrt(n) to find divisors. Each divisor 'i' has a pair 'n/i'. Handle perfect squares carefully. Sort the collected divisors.
+
+- Don't add duplicate divisors for perfect squares (when i*i == n).
+- TC O(sqrt(n) + D log D) where D is number of divisors, SC O(D) where D is number of divisors
