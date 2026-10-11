@@ -153,37 +153,17 @@
     145,
     148,
     149,
-    151
+    151,
+    152,
+    155,
+    161,
+    156,
+    157
   ],
   "revisits": {},
-  "last_session_day": "2026-10-10",
-  "day_number": 69,
+  "last_session_day": "2026-10-11",
+  "day_number": 70,
   "recent": [
-    {
-      "date": "2026-09-14",
-      "name": "Find pairs with given sum in Doubly Linked List",
-      "step": 6
-    },
-    {
-      "date": "2026-09-15",
-      "name": "Reverse Linked List in group of given size K",
-      "step": 6
-    },
-    {
-      "date": "2026-09-15",
-      "name": "Flattening of Linked List",
-      "step": 6
-    },
-    {
-      "date": "2026-09-15",
-      "name": "Reverse a stack using recursion",
-      "step": 7
-    },
-    {
-      "date": "2026-09-16",
-      "name": "Clone a Linked List with random and next pointer",
-      "step": 6
-    },
     {
       "date": "2026-09-16",
       "name": "Recursive Implementation of atoi",
@@ -357,6 +337,31 @@
     {
       "date": "2026-10-10",
       "name": "Find the number that appears odd number of times",
+      "step": 8
+    },
+    {
+      "date": "2026-10-11",
+      "name": "Power Set using bitmasking",
+      "step": 8
+    },
+    {
+      "date": "2026-10-11",
+      "name": "Print Prime Factors of a Number",
+      "step": 8
+    },
+    {
+      "date": "2026-10-11",
+      "name": "Implement Queue using Arrays",
+      "step": 9
+    },
+    {
+      "date": "2026-10-11",
+      "name": "All Divisors of a Number",
+      "step": 8
+    },
+    {
+      "date": "2026-10-11",
+      "name": "Sieve of Eratosthenes",
       "step": 8
     }
   ]

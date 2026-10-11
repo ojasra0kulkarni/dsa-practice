@@ -34,3 +34,10 @@ Iterate from 1 to sqrt(n) to find divisors. Each divisor 'i' has a pair 'n/i'. H
 
 - Don't add duplicate divisors for perfect squares (when i*i == n).
 - TC O(sqrt(n) + D log D) where D is number of divisors, SC O(D) where D is number of divisors
+
+## Sieve of Eratosthenes
+
+I just use a boolean array to keep track of prime status. Then iterate and mark multiples of primes as not prime.
+
+- Start marking multiples from p*p to avoid redundant work.
+- TC O(N log log N), SC O(N)
