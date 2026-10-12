@@ -158,17 +158,13 @@
     155,
     161,
     156,
-    157
+    157,
+    158
   ],
   "revisits": {},
-  "last_session_day": "2026-10-11",
-  "day_number": 70,
+  "last_session_day": "2026-10-12",
+  "day_number": 71,
   "recent": [
-    {
-      "date": "2026-09-16",
-      "name": "Recursive Implementation of atoi",
-      "step": 7
-    },
     {
       "date": "2026-09-16",
       "name": "Pow(x, n)",
@@ -362,6 +358,11 @@
     {
       "date": "2026-10-11",
       "name": "Sieve of Eratosthenes",
+      "step": 8
+    },
+    {
+      "date": "2026-10-12",
+      "name": "Find Prime Factorisation of a Number using Sieve",
       "step": 8
     }
   ]

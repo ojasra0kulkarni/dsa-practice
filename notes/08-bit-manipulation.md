@@ -41,3 +41,10 @@ I just use a boolean array to keep track of prime status. Then iterate and mark 
 
 - Start marking multiples from p*p to avoid redundant work.
 - TC O(N log log N), SC O(N)
+
+## Find Prime Factorisation of a Number using Sieve
+
+First, precompute the smallest prime factor for all numbers up to MX using a sieve. Then, to factorize a number, repeatedly divide it by its SPF until it becomes 1.
+
+- The sieve should only be computed once, typically with a static flag for lazy initialization.
+- TC O(MX log log MX + log N), SC O(MX)
