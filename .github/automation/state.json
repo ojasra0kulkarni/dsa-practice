@@ -159,17 +159,13 @@
     161,
     156,
     157,
-    158
+    158,
+    159
   ],
   "revisits": {},
-  "last_session_day": "2026-10-12",
-  "day_number": 71,
+  "last_session_day": "2026-10-13",
+  "day_number": 72,
   "recent": [
-    {
-      "date": "2026-09-16",
-      "name": "Pow(x, n)",
-      "step": 7
-    },
     {
       "date": "2026-09-17",
       "name": "Count Good numbers",
@@ -363,6 +359,11 @@
     {
       "date": "2026-10-12",
       "name": "Find Prime Factorisation of a Number using Sieve",
+      "step": 8
+    },
+    {
+      "date": "2026-10-13",
+      "name": "Power(n, x) using fast exponentiation",
       "step": 8
     }
   ]
