@@ -162,27 +162,15 @@
     158,
     159,
     160,
-    162
+    162,
+    163,
+    164,
+    165
   ],
   "revisits": {},
-  "last_session_day": "2026-10-14",
-  "day_number": 73,
+  "last_session_day": "2026-10-15",
+  "day_number": 74,
   "recent": [
-    {
-      "date": "2026-09-18",
-      "name": "Sort a stack using recursion",
-      "step": 7
-    },
-    {
-      "date": "2026-09-18",
-      "name": "Generate Parenthesis",
-      "step": 7
-    },
-    {
-      "date": "2026-09-19",
-      "name": "Letter Combinations of a Phone number",
-      "step": 7
-    },
     {
       "date": "2026-09-19",
       "name": "Print all subsequences / Power Set",
@@ -366,6 +354,21 @@
     {
       "date": "2026-10-14",
       "name": "Implement Stack using Queue",
+      "step": 9
+    },
+    {
+      "date": "2026-10-15",
+      "name": "Implement Queue using Stack",
+      "step": 9
+    },
+    {
+      "date": "2026-10-15",
+      "name": "Implement Stack using Linked List",
+      "step": 9
+    },
+    {
+      "date": "2026-10-15",
+      "name": "Implement Queue using Linked List",
       "step": 9
     }
   ]
