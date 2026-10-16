@@ -165,22 +165,14 @@
     162,
     163,
     164,
-    165
+    165,
+    166,
+    167
   ],
   "revisits": {},
-  "last_session_day": "2026-10-15",
-  "day_number": 74,
+  "last_session_day": "2026-10-16",
+  "day_number": 75,
   "recent": [
-    {
-      "date": "2026-09-19",
-      "name": "Print all subsequences / Power Set",
-      "step": 7
-    },
-    {
-      "date": "2026-09-20",
-      "name": "Count all subsequences with sum K",
-      "step": 7
-    },
     {
       "date": "2026-09-20",
       "name": "Palindrome Partitioning",
@@ -369,6 +361,16 @@
     {
       "date": "2026-10-15",
       "name": "Implement Queue using Linked List",
+      "step": 9
+    },
+    {
+      "date": "2026-10-16",
+      "name": "Check for balanced parenthesis",
+      "step": 9
+    },
+    {
+      "date": "2026-10-16",
+      "name": "Implement Min Stack",
       "step": 9
     }
   ]

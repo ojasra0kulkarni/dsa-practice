@@ -3,7 +3,7 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**161 / 403 solved (40.0%)**
+**168 / 403 solved (41.7%)**
 
 ## Progress by step
 
@@ -15,7 +15,7 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 | 06 | Linked List | 31/31 | `██████████████████` |
 | 07 | Recursion | 24/24 | `██████████████████` |
 | 08 | Bit Manipulation | 18/18 | `██████████████████` |
-| 09 | Stacks and Queues | 1/30 | `█░░░░░░░░░░░░░░░░░` |
+| 09 | Stacks and Queues | 8/30 | `█████░░░░░░░░░░░░░` |
 | 10 | Sliding Window and Two Pointer | 0/12 | `░░░░░░░░░░░░░░░░░░` |
 | 11 | Heaps | 0/17 | `░░░░░░░░░░░░░░░░░░` |
 | 12 | Greedy Algorithms | 0/15 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,18 +28,18 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-10-16` — Implement Min Stack
+- `2026-10-16` — Check for balanced parenthesis
+- `2026-10-15` — Implement Queue using Linked List
+- `2026-10-15` — Implement Stack using Linked List
+- `2026-10-15` — Implement Queue using Stack
+- `2026-10-14` — Implement Stack using Queue
+- `2026-10-14` — Implement Stack using Arrays
 - `2026-10-13` — Power(n, x) using fast exponentiation
 - `2026-10-12` — Find Prime Factorisation of a Number using Sieve
 - `2026-10-11` — Sieve of Eratosthenes
 - `2026-10-11` — All Divisors of a Number
 - `2026-10-11` — Implement Queue using Arrays
-- `2026-10-11` — Print Prime Factors of a Number
-- `2026-10-11` — Power Set using bitmasking
-- `2026-10-10` — Find the number that appears odd number of times
-- `2026-10-10` — Divide two integers without using multiplication division and mod operator
-- `2026-10-09` — Swap two numbers without a temp variable
-- `2026-10-08` — Check if a number is power of 2 or not
-- `2026-10-07` — Find the two numbers appearing odd number of times
 
 ## Layout
 
