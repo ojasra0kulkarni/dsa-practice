@@ -167,27 +167,15 @@
     164,
     165,
     166,
-    167
+    167,
+    168,
+    169,
+    170
   ],
   "revisits": {},
-  "last_session_day": "2026-10-16",
-  "day_number": 75,
+  "last_session_day": "2026-10-17",
+  "day_number": 76,
   "recent": [
-    {
-      "date": "2026-09-20",
-      "name": "Palindrome Partitioning",
-      "step": 7
-    },
-    {
-      "date": "2026-09-20",
-      "name": "N Queen",
-      "step": 7
-    },
-    {
-      "date": "2026-09-28",
-      "name": "Check if there exists a subsequence with sum K",
-      "step": 7
-    },
     {
       "date": "2026-09-28",
       "name": "Combination Sum",
@@ -371,6 +359,21 @@
     {
       "date": "2026-10-16",
       "name": "Implement Min Stack",
+      "step": 9
+    },
+    {
+      "date": "2026-10-17",
+      "name": "Infix to Postfix Conversion using Stack",
+      "step": 9
+    },
+    {
+      "date": "2026-10-17",
+      "name": "Prefix to Infix Conversion",
+      "step": 9
+    },
+    {
+      "date": "2026-10-17",
+      "name": "Prefix to Postfix Conversion",
       "step": 9
     }
   ]
