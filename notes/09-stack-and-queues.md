@@ -20,3 +20,10 @@ Just iterate through the expression and use a stack to manage operators based on
 
 - Make sure to pop remaining operators from the stack at the very end.
 - TC O(N), SC O(N)
+
+## Postfix to Prefix Conversion
+
+Iterate through the expression, push operands to stack. When an operator comes, pop two operands, form "operator + op2 + op1" (important order!) and push back.
+
+- Remember the correct order of operands when popping from the stack for prefix: it's `operator + second_popped + first_popped`.
+- TC O(N), SC O(N)
