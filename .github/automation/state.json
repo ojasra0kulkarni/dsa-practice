@@ -170,27 +170,15 @@
     167,
     168,
     169,
-    170
+    170,
+    171,
+    172,
+    173
   ],
   "revisits": {},
-  "last_session_day": "2026-10-17",
-  "day_number": 76,
+  "last_session_day": "2026-10-18",
+  "day_number": 77,
   "recent": [
-    {
-      "date": "2026-09-28",
-      "name": "Combination Sum",
-      "step": 7
-    },
-    {
-      "date": "2026-09-29",
-      "name": "Subset Sum II",
-      "step": 7
-    },
-    {
-      "date": "2026-09-30",
-      "name": "Combination Sum II",
-      "step": 7
-    },
     {
       "date": "2026-09-30",
       "name": "Subset Sum I",
@@ -374,6 +362,21 @@
     {
       "date": "2026-10-17",
       "name": "Prefix to Postfix Conversion",
+      "step": 9
+    },
+    {
+      "date": "2026-10-18",
+      "name": "Postfix to Prefix Conversion",
+      "step": 9
+    },
+    {
+      "date": "2026-10-18",
+      "name": "Postfix to Infix Conversion",
+      "step": 9
+    },
+    {
+      "date": "2026-10-18",
+      "name": "Infix to Prefix Conversion",
       "step": 9
     }
   ]
