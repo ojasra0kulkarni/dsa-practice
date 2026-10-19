@@ -3,7 +3,7 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**171 / 403 solved (42.4%)**
+**176 / 403 solved (43.7%)**
 
 ## Progress by step
 
@@ -15,7 +15,7 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 | 06 | Linked List | 31/31 | `██████████████████` |
 | 07 | Recursion | 24/24 | `██████████████████` |
 | 08 | Bit Manipulation | 18/18 | `██████████████████` |
-| 09 | Stacks and Queues | 11/30 | `███████░░░░░░░░░░░` |
+| 09 | Stacks and Queues | 16/30 | `██████████░░░░░░░░` |
 | 10 | Sliding Window and Two Pointer | 0/12 | `░░░░░░░░░░░░░░░░░░` |
 | 11 | Heaps | 0/17 | `░░░░░░░░░░░░░░░░░░` |
 | 12 | Greedy Algorithms | 0/15 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,6 +28,11 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-10-19` — Next Greater Element
+- `2026-10-19` — Trapping Rainwater
+- `2026-10-18` — Infix to Prefix Conversion
+- `2026-10-18` — Postfix to Infix Conversion
+- `2026-10-18` — Postfix to Prefix Conversion
 - `2026-10-17` — Prefix to Postfix Conversion
 - `2026-10-17` — Prefix to Infix Conversion
 - `2026-10-17` — Infix to Postfix Conversion using Stack
@@ -35,11 +40,6 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 - `2026-10-16` — Check for balanced parenthesis
 - `2026-10-15` — Implement Queue using Linked List
 - `2026-10-15` — Implement Stack using Linked List
-- `2026-10-15` — Implement Queue using Stack
-- `2026-10-14` — Implement Stack using Queue
-- `2026-10-14` — Implement Stack using Arrays
-- `2026-10-13` — Power(n, x) using fast exponentiation
-- `2026-10-12` — Find Prime Factorisation of a Number using Sieve
 
 ## Layout
 
