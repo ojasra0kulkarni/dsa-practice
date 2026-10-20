@@ -175,17 +175,13 @@
     172,
     173,
     178,
-    174
+    174,
+    175
   ],
   "revisits": {},
-  "last_session_day": "2026-10-19",
-  "day_number": 78,
+  "last_session_day": "2026-10-20",
+  "day_number": 79,
   "recent": [
-    {
-      "date": "2026-10-02",
-      "name": "Word Search",
-      "step": 7
-    },
     {
       "date": "2026-10-02",
       "name": "Rat in a Maze",
@@ -379,6 +375,11 @@
     {
       "date": "2026-10-19",
       "name": "Next Greater Element",
+      "step": 9
+    },
+    {
+      "date": "2026-10-20",
+      "name": "Next Greater Element II",
       "step": 9
     }
   ]

@@ -3,7 +3,7 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**176 / 403 solved (43.7%)**
+**177 / 403 solved (43.9%)**
 
 ## Progress by step
 
@@ -15,7 +15,7 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 | 06 | Linked List | 31/31 | `██████████████████` |
 | 07 | Recursion | 24/24 | `██████████████████` |
 | 08 | Bit Manipulation | 18/18 | `██████████████████` |
-| 09 | Stacks and Queues | 16/30 | `██████████░░░░░░░░` |
+| 09 | Stacks and Queues | 17/30 | `██████████░░░░░░░░` |
 | 10 | Sliding Window and Two Pointer | 0/12 | `░░░░░░░░░░░░░░░░░░` |
 | 11 | Heaps | 0/17 | `░░░░░░░░░░░░░░░░░░` |
 | 12 | Greedy Algorithms | 0/15 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,6 +28,7 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-10-20` — Next Greater Element II
 - `2026-10-19` — Next Greater Element
 - `2026-10-19` — Trapping Rainwater
 - `2026-10-18` — Infix to Prefix Conversion
@@ -39,7 +40,6 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 - `2026-10-16` — Implement Min Stack
 - `2026-10-16` — Check for balanced parenthesis
 - `2026-10-15` — Implement Queue using Linked List
-- `2026-10-15` — Implement Stack using Linked List
 
 ## Layout
 
