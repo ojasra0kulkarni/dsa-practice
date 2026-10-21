@@ -27,3 +27,10 @@ Iterate through the expression, push operands to stack. When an operator comes, 
 
 - Remember the correct order of operands when popping from the stack for prefix: it's `operator + second_popped + first_popped`.
 - TC O(N), SC O(N)
+
+## Next Smaller Element
+
+Iterate from right to left and use a stack. Pop elements from stack that are not smaller than current element.
+
+- Iterate from right to left for the 'next' (to the right) smaller element.
+- TC O(n), SC O(n)
