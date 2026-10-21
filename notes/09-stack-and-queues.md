@@ -34,3 +34,10 @@ Iterate from right to left and use a stack. Pop elements from stack that are not
 
 - Iterate from right to left for the 'next' (to the right) smaller element.
 - TC O(n), SC O(n)
+
+## Number of NGEs to the right
+
+First find the immediate NGE for each element using a monotonic stack. Then use DP to count the chain length based on these NGEs.
+
+- DP depends on previously computed values, so process indices from right to left.
+- TC O(N), SC O(N)

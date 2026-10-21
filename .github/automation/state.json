@@ -176,22 +176,14 @@
     173,
     178,
     174,
-    175
+    175,
+    176,
+    177
   ],
   "revisits": {},
-  "last_session_day": "2026-10-20",
-  "day_number": 79,
+  "last_session_day": "2026-10-21",
+  "day_number": 80,
   "recent": [
-    {
-      "date": "2026-10-02",
-      "name": "Rat in a Maze",
-      "step": 7
-    },
-    {
-      "date": "2026-10-02",
-      "name": "Word Break",
-      "step": 7
-    },
     {
       "date": "2026-10-03",
       "name": "M Coloring Problem",
@@ -380,6 +372,16 @@
     {
       "date": "2026-10-20",
       "name": "Next Greater Element II",
+      "step": 9
+    },
+    {
+      "date": "2026-10-21",
+      "name": "Next Smaller Element",
+      "step": 9
+    },
+    {
+      "date": "2026-10-21",
+      "name": "Number of NGEs to the right",
       "step": 9
     }
   ]
