@@ -41,3 +41,10 @@ First find the immediate NGE for each element using a monotonic stack. Then use 
 
 - DP depends on previously computed values, so process indices from right to left.
 - TC O(N), SC O(N)
+
+## Sum of subarray minimum
+
+Calculate how many subarrays each element is the minimum for, using two monotonic stacks to find previous and next smaller/equal elements. Sum up contributions.
+
+- Carefully handle duplicate elements by using strict inequality for PSE and non-strict for NSE, or vice versa.
+- TC O(N), SC O(N)
