@@ -178,17 +178,13 @@
     174,
     175,
     176,
-    177
+    177,
+    179
   ],
   "revisits": {},
-  "last_session_day": "2026-10-21",
-  "day_number": 80,
+  "last_session_day": "2026-10-22",
+  "day_number": 81,
   "recent": [
-    {
-      "date": "2026-10-03",
-      "name": "M Coloring Problem",
-      "step": 7
-    },
     {
       "date": "2026-10-03",
       "name": "Sudoku Solver",
@@ -382,6 +378,11 @@
     {
       "date": "2026-10-21",
       "name": "Number of NGEs to the right",
+      "step": 9
+    },
+    {
+      "date": "2026-10-22",
+      "name": "Sum of subarray minimum",
       "step": 9
     }
   ]
