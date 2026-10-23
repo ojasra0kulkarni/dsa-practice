@@ -179,17 +179,13 @@
     175,
     176,
     177,
-    179
+    179,
+    180
   ],
   "revisits": {},
-  "last_session_day": "2026-10-22",
-  "day_number": 81,
+  "last_session_day": "2026-10-23",
+  "day_number": 82,
   "recent": [
-    {
-      "date": "2026-10-03",
-      "name": "Sudoku Solver",
-      "step": 7
-    },
     {
       "date": "2026-10-04",
       "name": "Count the number of set bits",
@@ -383,6 +379,11 @@
     {
       "date": "2026-10-22",
       "name": "Sum of subarray minimum",
+      "step": 9
+    },
+    {
+      "date": "2026-10-23",
+      "name": "Asteroid Collision",
       "step": 9
     }
   ]
