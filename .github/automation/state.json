@@ -180,37 +180,17 @@
     176,
     177,
     179,
-    180
+    180,
+    181,
+    182,
+    183,
+    184,
+    185
   ],
   "revisits": {},
-  "last_session_day": "2026-10-23",
-  "day_number": 82,
+  "last_session_day": "2026-10-24",
+  "day_number": 83,
   "recent": [
-    {
-      "date": "2026-10-04",
-      "name": "Count the number of set bits",
-      "step": 8
-    },
-    {
-      "date": "2026-10-04",
-      "name": "Expression Add Operators",
-      "step": 7
-    },
-    {
-      "date": "2026-10-04",
-      "name": "Introduction to Bit Manipulation",
-      "step": 8
-    },
-    {
-      "date": "2026-10-05",
-      "name": "Set or Unset the rightmost unset bit",
-      "step": 8
-    },
-    {
-      "date": "2026-10-06",
-      "name": "Check if the i-th bit is set or not",
-      "step": 8
-    },
     {
       "date": "2026-10-06",
       "name": "Count number of bits to be flipped to convert A to B",
@@ -384,6 +364,31 @@
     {
       "date": "2026-10-23",
       "name": "Asteroid Collision",
+      "step": 9
+    },
+    {
+      "date": "2026-10-24",
+      "name": "Sum of subarray ranges",
+      "step": 9
+    },
+    {
+      "date": "2026-10-24",
+      "name": "Remove K Digits",
+      "step": 9
+    },
+    {
+      "date": "2026-10-24",
+      "name": "Largest rectangle in a histogram",
+      "step": 9
+    },
+    {
+      "date": "2026-10-24",
+      "name": "Maximal Rectangle",
+      "step": 9
+    },
+    {
+      "date": "2026-10-24",
+      "name": "Sliding Window Maximum",
       "step": 9
     }
   ]
