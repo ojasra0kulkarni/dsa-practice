@@ -48,3 +48,10 @@ Calculate how many subarrays each element is the minimum for, using two monotoni
 
 - Carefully handle duplicate elements by using strict inequality for PSE and non-strict for NSE, or vice versa.
 - TC O(N), SC O(N)
+
+## Largest rectangle in a histogram
+
+Find the nearest smaller element on both sides for each bar using a monotonic stack. Then calculate the area for each bar and find the max.
+
+- Use long long for area calculation to prevent overflow.
+- TC O(n), SC O(n)
