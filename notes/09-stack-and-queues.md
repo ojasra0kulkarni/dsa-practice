@@ -55,3 +55,10 @@ Find the nearest smaller element on both sides for each bar using a monotonic st
 
 - Use long long for area calculation to prevent overflow.
 - TC O(n), SC O(n)
+
+## LRU Cache
+
+Classic problem, use a hashmap for O(1) access to nodes and a doubly linked list to maintain usage order and remove LRU.
+
+- Remember to handle memory deallocation for evicted nodes to avoid leaks.
+- TC O(1), SC O(capacity)
