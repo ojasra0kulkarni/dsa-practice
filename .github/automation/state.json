@@ -188,17 +188,13 @@
     185,
     186,
     187,
-    188
+    188,
+    189
   ],
   "revisits": {},
-  "last_session_day": "2026-10-25",
-  "day_number": 84,
+  "last_session_day": "2026-10-26",
+  "day_number": 85,
   "recent": [
-    {
-      "date": "2026-10-07",
-      "name": "Find the two numbers appearing odd number of times",
-      "step": 8
-    },
     {
       "date": "2026-10-08",
       "name": "Check if a number is power of 2 or not",
@@ -392,6 +388,11 @@
     {
       "date": "2026-10-25",
       "name": "LRU Cache",
+      "step": 9
+    },
+    {
+      "date": "2026-10-26",
+      "name": "LFU Cache",
       "step": 9
     }
   ]
