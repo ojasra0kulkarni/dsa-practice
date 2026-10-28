@@ -192,17 +192,13 @@
     189,
     195,
     190,
-    191
+    191,
+    192
   ],
   "revisits": {},
-  "last_session_day": "2026-10-27",
-  "day_number": 86,
+  "last_session_day": "2026-10-28",
+  "day_number": 87,
   "recent": [
-    {
-      "date": "2026-10-10",
-      "name": "Find the number that appears odd number of times",
-      "step": 8
-    },
     {
       "date": "2026-10-11",
       "name": "Power Set using bitmasking",
@@ -396,6 +392,11 @@
     {
       "date": "2026-10-27",
       "name": "Max Consecutive Ones III",
+      "step": 10
+    },
+    {
+      "date": "2026-10-28",
+      "name": "Fruit Into Baskets",
       "step": 10
     }
   ]
