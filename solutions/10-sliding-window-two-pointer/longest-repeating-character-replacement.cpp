@@ -24,3 +24,5 @@ public:
         return mxlen;
     }
 };
+
+// note to self: revisit the binary search variant
