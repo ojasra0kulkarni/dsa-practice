@@ -194,17 +194,13 @@
     190,
     191,
     192,
-    193
+    193,
+    194
   ],
   "revisits": {},
-  "last_session_day": "2026-10-29",
-  "day_number": 88,
+  "last_session_day": "2026-10-30",
+  "day_number": 89,
   "recent": [
-    {
-      "date": "2026-10-11",
-      "name": "Print Prime Factors of a Number",
-      "step": 8
-    },
     {
       "date": "2026-10-11",
       "name": "Implement Queue using Arrays",
@@ -398,6 +394,11 @@
     {
       "date": "2026-10-29",
       "name": "Longest Repeating Character Replacement",
+      "step": 10
+    },
+    {
+      "date": "2026-10-30",
+      "name": "Binary Subarray with Sum",
       "step": 10
     }
   ]
