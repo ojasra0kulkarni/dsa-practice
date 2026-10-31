@@ -3,7 +3,7 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**195 / 403 solved (48.4%)**
+**201 / 403 solved (49.9%)**
 
 ## Progress by step
 
@@ -16,8 +16,8 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 | 07 | Recursion | 24/24 | `██████████████████` |
 | 08 | Bit Manipulation | 18/18 | `██████████████████` |
 | 09 | Stacks and Queues | 30/30 | `██████████████████` |
-| 10 | Sliding Window and Two Pointer | 5/12 | `████████░░░░░░░░░░` |
-| 11 | Heaps | 0/17 | `░░░░░░░░░░░░░░░░░░` |
+| 10 | Sliding Window and Two Pointer | 10/12 | `███████████████░░░` |
+| 11 | Heaps | 1/17 | `█░░░░░░░░░░░░░░░░░` |
 | 12 | Greedy Algorithms | 0/15 | `░░░░░░░░░░░░░░░░░░` |
 | 13 | Binary Trees | 0/35 | `░░░░░░░░░░░░░░░░░░` |
 | 14 | Binary Search Trees | 0/16 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,18 +28,18 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-10-31` — Merge M sorted Lists
+- `2026-10-31` — Subarrays with K Different Integers
+- `2026-10-31` — Longest Substring with At Most K Distinct Characters
+- `2026-10-31` — Maximum points you can obtain from cards
+- `2026-10-31` — Number of substrings containing all three characters
+- `2026-10-30` — Binary Subarray with Sum
 - `2026-10-29` — Longest Repeating Character Replacement
 - `2026-10-28` — Fruit Into Baskets
 - `2026-10-27` — Max Consecutive Ones III
 - `2026-10-27` — Longest Substring Without Repeating Characters
 - `2026-10-27` — Count Number of Nice Subarrays
 - `2026-10-26` — LFU Cache
-- `2026-10-25` — LRU Cache
-- `2026-10-25` — The Celebrity Problem
-- `2026-10-25` — Stock Span Problem
-- `2026-10-24` — Sliding Window Maximum
-- `2026-10-24` — Maximal Rectangle
-- `2026-10-24` — Largest rectangle in a histogram
 
 ## Layout
 

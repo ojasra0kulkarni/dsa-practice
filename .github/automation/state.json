@@ -195,37 +195,17 @@
     191,
     192,
     193,
-    194
+    194,
+    196,
+    197,
+    198,
+    199,
+    209
   ],
   "revisits": {},
-  "last_session_day": "2026-10-30",
-  "day_number": 89,
+  "last_session_day": "2026-10-31",
+  "day_number": 90,
   "recent": [
-    {
-      "date": "2026-10-11",
-      "name": "Implement Queue using Arrays",
-      "step": 9
-    },
-    {
-      "date": "2026-10-11",
-      "name": "All Divisors of a Number",
-      "step": 8
-    },
-    {
-      "date": "2026-10-11",
-      "name": "Sieve of Eratosthenes",
-      "step": 8
-    },
-    {
-      "date": "2026-10-12",
-      "name": "Find Prime Factorisation of a Number using Sieve",
-      "step": 8
-    },
-    {
-      "date": "2026-10-13",
-      "name": "Power(n, x) using fast exponentiation",
-      "step": 8
-    },
     {
       "date": "2026-10-14",
       "name": "Implement Stack using Arrays",
@@ -400,6 +380,31 @@
       "date": "2026-10-30",
       "name": "Binary Subarray with Sum",
       "step": 10
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Number of substrings containing all three characters",
+      "step": 10
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Maximum points you can obtain from cards",
+      "step": 10
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Longest Substring with At Most K Distinct Characters",
+      "step": 10
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Subarrays with K Different Integers",
+      "step": 10
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Merge M sorted Lists",
+      "step": 11
     }
   ]
 }
