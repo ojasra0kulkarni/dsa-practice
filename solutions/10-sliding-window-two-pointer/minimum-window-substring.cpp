@@ -51,3 +51,5 @@ public:
         return s.substr(stIdx,minLen);
     }
 };
+
+// edge case: empty input handled above
