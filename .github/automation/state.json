@@ -204,17 +204,13 @@
     200,
     201,
     206,
-    204
+    204,
+    202
   ],
   "revisits": {},
-  "last_session_day": "2026-11-01",
-  "day_number": 91,
+  "last_session_day": "2026-11-02",
+  "day_number": 92,
   "recent": [
-    {
-      "date": "2026-10-15",
-      "name": "Implement Queue using Linked List",
-      "step": 9
-    },
     {
       "date": "2026-10-16",
       "name": "Check for balanced parenthesis",
@@ -408,6 +404,11 @@
     {
       "date": "2026-11-01",
       "name": "Check if an array represents a min-heap or not",
+      "step": 11
+    },
+    {
+      "date": "2026-11-02",
+      "name": "Introduction to Priority Queues using Binary Heaps",
       "step": 11
     }
   ]
