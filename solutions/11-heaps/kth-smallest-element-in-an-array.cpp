@@ -22,3 +22,5 @@ int main(){
     cout<<sol.kthSmallest(a,k)<<endl;
     return 0;
 }
+
+// note to self: revisit the binary search variant
