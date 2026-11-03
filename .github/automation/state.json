@@ -205,27 +205,15 @@
     201,
     206,
     204,
-    202
+    202,
+    203,
+    205,
+    207
   ],
   "revisits": {},
-  "last_session_day": "2026-11-02",
-  "day_number": 92,
+  "last_session_day": "2026-11-03",
+  "day_number": 93,
   "recent": [
-    {
-      "date": "2026-10-16",
-      "name": "Check for balanced parenthesis",
-      "step": 9
-    },
-    {
-      "date": "2026-10-16",
-      "name": "Implement Min Stack",
-      "step": 9
-    },
-    {
-      "date": "2026-10-17",
-      "name": "Infix to Postfix Conversion using Stack",
-      "step": 9
-    },
     {
       "date": "2026-10-17",
       "name": "Prefix to Infix Conversion",
@@ -409,6 +397,21 @@
     {
       "date": "2026-11-02",
       "name": "Introduction to Priority Queues using Binary Heaps",
+      "step": 11
+    },
+    {
+      "date": "2026-11-03",
+      "name": "Min Heap and Max Heap Implementation",
+      "step": 11
+    },
+    {
+      "date": "2026-11-03",
+      "name": "Convert Min Heap to Max Heap",
+      "step": 11
+    },
+    {
+      "date": "2026-11-03",
+      "name": "Kth smallest element in an array",
       "step": 11
     }
   ]
