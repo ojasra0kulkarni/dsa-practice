@@ -3,7 +3,7 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**205 / 403 solved (50.9%)**
+**211 / 403 solved (52.4%)**
 
 ## Progress by step
 
@@ -17,7 +17,7 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 | 08 | Bit Manipulation | 18/18 | `██████████████████` |
 | 09 | Stacks and Queues | 30/30 | `██████████████████` |
 | 10 | Sliding Window and Two Pointer | 12/12 | `██████████████████` |
-| 11 | Heaps | 3/17 | `███░░░░░░░░░░░░░░░` |
+| 11 | Heaps | 9/17 | `██████████░░░░░░░░` |
 | 12 | Greedy Algorithms | 0/15 | `░░░░░░░░░░░░░░░░░░` |
 | 13 | Binary Trees | 0/35 | `░░░░░░░░░░░░░░░░░░` |
 | 14 | Binary Search Trees | 0/16 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,18 +28,18 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-11-04` — Replace each array element by its corresponding rank
+- `2026-11-04` — Sort K sorted array
+- `2026-11-03` — Kth smallest element in an array
+- `2026-11-03` — Convert Min Heap to Max Heap
+- `2026-11-03` — Min Heap and Max Heap Implementation
+- `2026-11-02` — Introduction to Priority Queues using Binary Heaps
 - `2026-11-01` — Check if an array represents a min-heap or not
 - `2026-11-01` — Kth largest element in an array
 - `2026-11-01` — Minimum Window Subsequence
 - `2026-11-01` — Minimum Window Substring
 - `2026-10-31` — Merge M sorted Lists
 - `2026-10-31` — Subarrays with K Different Integers
-- `2026-10-31` — Longest Substring with At Most K Distinct Characters
-- `2026-10-31` — Maximum points you can obtain from cards
-- `2026-10-31` — Number of substrings containing all three characters
-- `2026-10-30` — Binary Subarray with Sum
-- `2026-10-29` — Longest Repeating Character Replacement
-- `2026-10-28` — Fruit Into Baskets
 
 ## Layout
 

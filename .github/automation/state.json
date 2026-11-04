@@ -208,22 +208,14 @@
     202,
     203,
     205,
-    207
+    207,
+    208,
+    210
   ],
   "revisits": {},
-  "last_session_day": "2026-11-03",
-  "day_number": 93,
+  "last_session_day": "2026-11-04",
+  "day_number": 94,
   "recent": [
-    {
-      "date": "2026-10-17",
-      "name": "Prefix to Infix Conversion",
-      "step": 9
-    },
-    {
-      "date": "2026-10-17",
-      "name": "Prefix to Postfix Conversion",
-      "step": 9
-    },
     {
       "date": "2026-10-18",
       "name": "Postfix to Prefix Conversion",
@@ -412,6 +404,16 @@
     {
       "date": "2026-11-03",
       "name": "Kth smallest element in an array",
+      "step": 11
+    },
+    {
+      "date": "2026-11-04",
+      "name": "Sort K sorted array",
+      "step": 11
+    },
+    {
+      "date": "2026-11-04",
+      "name": "Replace each array element by its corresponding rank",
       "step": 11
     }
   ]
