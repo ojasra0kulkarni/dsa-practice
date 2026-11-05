@@ -3,7 +3,7 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**211 / 403 solved (52.4%)**
+**213 / 403 solved (52.9%)**
 
 ## Progress by step
 
@@ -17,7 +17,7 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 | 08 | Bit Manipulation | 18/18 | `██████████████████` |
 | 09 | Stacks and Queues | 30/30 | `██████████████████` |
 | 10 | Sliding Window and Two Pointer | 12/12 | `██████████████████` |
-| 11 | Heaps | 9/17 | `██████████░░░░░░░░` |
+| 11 | Heaps | 11/17 | `████████████░░░░░░` |
 | 12 | Greedy Algorithms | 0/15 | `░░░░░░░░░░░░░░░░░░` |
 | 13 | Binary Trees | 0/35 | `░░░░░░░░░░░░░░░░░░` |
 | 14 | Binary Search Trees | 0/16 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,6 +28,8 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-11-05` — Hands of Straights
+- `2026-11-05` — Task Scheduler
 - `2026-11-04` — Replace each array element by its corresponding rank
 - `2026-11-04` — Sort K sorted array
 - `2026-11-03` — Kth smallest element in an array
@@ -38,8 +40,6 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 - `2026-11-01` — Kth largest element in an array
 - `2026-11-01` — Minimum Window Subsequence
 - `2026-11-01` — Minimum Window Substring
-- `2026-10-31` — Merge M sorted Lists
-- `2026-10-31` — Subarrays with K Different Integers
 
 ## Layout
 
