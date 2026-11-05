@@ -36,3 +36,5 @@ int main(){
     cout<<s.isNStraightHand(a,k)<<endl;
     return 0;
 }
+
+// edge case: empty input handled above
