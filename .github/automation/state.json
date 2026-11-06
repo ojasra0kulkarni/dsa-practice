@@ -212,27 +212,15 @@
     208,
     210,
     211,
-    212
+    212,
+    213,
+    214,
+    215
   ],
   "revisits": {},
-  "last_session_day": "2026-11-05",
-  "day_number": 95,
+  "last_session_day": "2026-11-06",
+  "day_number": 96,
   "recent": [
-    {
-      "date": "2026-10-18",
-      "name": "Infix to Prefix Conversion",
-      "step": 9
-    },
-    {
-      "date": "2026-10-19",
-      "name": "Trapping Rainwater",
-      "step": 9
-    },
-    {
-      "date": "2026-10-19",
-      "name": "Next Greater Element",
-      "step": 9
-    },
     {
       "date": "2026-10-20",
       "name": "Next Greater Element II",
@@ -416,6 +404,21 @@
     {
       "date": "2026-11-05",
       "name": "Hands of Straights",
+      "step": 11
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Design Twitter",
+      "step": 11
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Connect n ropes with minimal cost",
+      "step": 11
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Kth largest element in a stream of running integers",
       "step": 11
     }
   ]
