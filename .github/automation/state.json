@@ -215,27 +215,15 @@
     212,
     213,
     214,
-    215
+    215,
+    216,
+    217,
+    218
   ],
   "revisits": {},
-  "last_session_day": "2026-11-06",
-  "day_number": 96,
+  "last_session_day": "2026-11-07",
+  "day_number": 97,
   "recent": [
-    {
-      "date": "2026-10-20",
-      "name": "Next Greater Element II",
-      "step": 9
-    },
-    {
-      "date": "2026-10-21",
-      "name": "Next Smaller Element",
-      "step": 9
-    },
-    {
-      "date": "2026-10-21",
-      "name": "Number of NGEs to the right",
-      "step": 9
-    },
     {
       "date": "2026-10-22",
       "name": "Sum of subarray minimum",
@@ -419,6 +407,21 @@
     {
       "date": "2026-11-06",
       "name": "Kth largest element in a stream of running integers",
+      "step": 11
+    },
+    {
+      "date": "2026-11-07",
+      "name": "Maximum Sum Combination",
+      "step": 11
+    },
+    {
+      "date": "2026-11-07",
+      "name": "Find Median from Data Stream",
+      "step": 11
+    },
+    {
+      "date": "2026-11-07",
+      "name": "K most frequent elements",
       "step": 11
     }
   ]
