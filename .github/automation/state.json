@@ -218,32 +218,16 @@
     215,
     216,
     217,
-    218
+    218,
+    219,
+    220,
+    221,
+    224
   ],
   "revisits": {},
-  "last_session_day": "2026-11-07",
-  "day_number": 97,
+  "last_session_day": "2026-11-08",
+  "day_number": 98,
   "recent": [
-    {
-      "date": "2026-10-22",
-      "name": "Sum of subarray minimum",
-      "step": 9
-    },
-    {
-      "date": "2026-10-23",
-      "name": "Asteroid Collision",
-      "step": 9
-    },
-    {
-      "date": "2026-10-24",
-      "name": "Sum of subarray ranges",
-      "step": 9
-    },
-    {
-      "date": "2026-10-24",
-      "name": "Remove K Digits",
-      "step": 9
-    },
     {
       "date": "2026-10-24",
       "name": "Largest rectangle in a histogram",
@@ -423,6 +407,26 @@
       "date": "2026-11-07",
       "name": "K most frequent elements",
       "step": 11
+    },
+    {
+      "date": "2026-11-08",
+      "name": "Assign Cookies",
+      "step": 12
+    },
+    {
+      "date": "2026-11-08",
+      "name": "Fractional Knapsack Problem",
+      "step": 12
+    },
+    {
+      "date": "2026-11-08",
+      "name": "Greedy algorithm to find minimum number of coins",
+      "step": 12
+    },
+    {
+      "date": "2026-11-08",
+      "name": "N meetings in one room",
+      "step": 12
     }
   ]
 }
