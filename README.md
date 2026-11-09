@@ -3,7 +3,7 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**213 / 403 solved (52.9%)**
+**224 / 403 solved (55.6%)**
 
 ## Progress by step
 
@@ -17,8 +17,8 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 | 08 | Bit Manipulation | 18/18 | `██████████████████` |
 | 09 | Stacks and Queues | 30/30 | `██████████████████` |
 | 10 | Sliding Window and Two Pointer | 12/12 | `██████████████████` |
-| 11 | Heaps | 11/17 | `████████████░░░░░░` |
-| 12 | Greedy Algorithms | 0/15 | `░░░░░░░░░░░░░░░░░░` |
+| 11 | Heaps | 17/17 | `██████████████████` |
+| 12 | Greedy Algorithms | 5/15 | `██████░░░░░░░░░░░░` |
 | 13 | Binary Trees | 0/35 | `░░░░░░░░░░░░░░░░░░` |
 | 14 | Binary Search Trees | 0/16 | `░░░░░░░░░░░░░░░░░░` |
 | 15 | Graphs | 0/50 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,18 +28,18 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-11-09` — Lemonade Change
+- `2026-11-08` — N meetings in one room
+- `2026-11-08` — Greedy algorithm to find minimum number of coins
+- `2026-11-08` — Fractional Knapsack Problem
+- `2026-11-08` — Assign Cookies
+- `2026-11-07` — K most frequent elements
+- `2026-11-07` — Find Median from Data Stream
+- `2026-11-07` — Maximum Sum Combination
+- `2026-11-06` — Kth largest element in a stream of running integers
+- `2026-11-06` — Connect n ropes with minimal cost
+- `2026-11-06` — Design Twitter
 - `2026-11-05` — Hands of Straights
-- `2026-11-05` — Task Scheduler
-- `2026-11-04` — Replace each array element by its corresponding rank
-- `2026-11-04` — Sort K sorted array
-- `2026-11-03` — Kth smallest element in an array
-- `2026-11-03` — Convert Min Heap to Max Heap
-- `2026-11-03` — Min Heap and Max Heap Implementation
-- `2026-11-02` — Introduction to Priority Queues using Binary Heaps
-- `2026-11-01` — Check if an array represents a min-heap or not
-- `2026-11-01` — Kth largest element in an array
-- `2026-11-01` — Minimum Window Subsequence
-- `2026-11-01` — Minimum Window Substring
 
 ## Layout
 

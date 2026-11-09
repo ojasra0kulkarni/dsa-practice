@@ -222,17 +222,13 @@
     219,
     220,
     221,
-    224
+    224,
+    222
   ],
   "revisits": {},
-  "last_session_day": "2026-11-08",
-  "day_number": 98,
+  "last_session_day": "2026-11-09",
+  "day_number": 99,
   "recent": [
-    {
-      "date": "2026-10-24",
-      "name": "Largest rectangle in a histogram",
-      "step": 9
-    },
     {
       "date": "2026-10-24",
       "name": "Maximal Rectangle",
@@ -426,6 +422,11 @@
     {
       "date": "2026-11-08",
       "name": "N meetings in one room",
+      "step": 12
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Lemonade Change",
       "step": 12
     }
   ]
