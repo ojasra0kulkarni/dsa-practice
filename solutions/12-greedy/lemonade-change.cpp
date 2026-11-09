@@ -30,3 +30,5 @@ public:
         return true;
     }
 };
+
+// note to self: revisit the hashmap variant
