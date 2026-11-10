@@ -223,22 +223,14 @@
     220,
     221,
     224,
-    222
+    222,
+    223,
+    225
   ],
   "revisits": {},
-  "last_session_day": "2026-11-09",
-  "day_number": 99,
+  "last_session_day": "2026-11-10",
+  "day_number": 100,
   "recent": [
-    {
-      "date": "2026-10-24",
-      "name": "Maximal Rectangle",
-      "step": 9
-    },
-    {
-      "date": "2026-10-24",
-      "name": "Sliding Window Maximum",
-      "step": 9
-    },
     {
       "date": "2026-10-25",
       "name": "Stock Span Problem",
@@ -427,6 +419,16 @@
     {
       "date": "2026-11-09",
       "name": "Lemonade Change",
+      "step": 12
+    },
+    {
+      "date": "2026-11-10",
+      "name": "Valid Parenthesis String",
+      "step": 12
+    },
+    {
+      "date": "2026-11-10",
+      "name": "Jump Game",
       "step": 12
     }
   ]
