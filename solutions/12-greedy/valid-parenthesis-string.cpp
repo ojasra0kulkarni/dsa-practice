@@ -28,3 +28,5 @@ public:
         return lo == 0;
     }
 };
+
+// edge case: empty input handled above
