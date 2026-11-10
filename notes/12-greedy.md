@@ -6,3 +6,10 @@ Sort all meetings by their end times. Then iterate and pick any meeting whose st
 
 - The core trick is to sort meetings strictly by their end times.
 - TC O(N log N), SC O(N)
+
+## Valid Parenthesis String
+
+Keep track of the minimum and maximum possible open parentheses counts. Clip the minimum at zero and make sure the maximum never drops below zero. At the end, the minimum must be zero.
+
+- Remember to clip `lo` at 0 at each step, and ensure `lo` is exactly 0 at the end.
+- TC O(N), SC O(1)
