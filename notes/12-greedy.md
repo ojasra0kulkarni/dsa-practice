@@ -13,3 +13,10 @@ Keep track of the minimum and maximum possible open parentheses counts. Clip the
 
 - Remember to clip `lo` at 0 at each step, and ensure `lo` is exactly 0 at the end.
 - TC O(N), SC O(1)
+
+## Jump Game
+
+start from end, see if each position can reach the target, update target to reachable position.
+
+- make sure logic works for n=1
+- TC O(n), SC O(1)
