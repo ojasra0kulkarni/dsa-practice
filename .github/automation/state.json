@@ -225,27 +225,15 @@
     224,
     222,
     223,
-    225
+    225,
+    226,
+    227,
+    228
   ],
   "revisits": {},
-  "last_session_day": "2026-11-10",
-  "day_number": 100,
+  "last_session_day": "2026-11-11",
+  "day_number": 101,
   "recent": [
-    {
-      "date": "2026-10-25",
-      "name": "Stock Span Problem",
-      "step": 9
-    },
-    {
-      "date": "2026-10-25",
-      "name": "The Celebrity Problem",
-      "step": 9
-    },
-    {
-      "date": "2026-10-25",
-      "name": "LRU Cache",
-      "step": 9
-    },
     {
       "date": "2026-10-26",
       "name": "LFU Cache",
@@ -429,6 +417,21 @@
     {
       "date": "2026-11-10",
       "name": "Jump Game",
+      "step": 12
+    },
+    {
+      "date": "2026-11-11",
+      "name": "Jump Game II",
+      "step": 12
+    },
+    {
+      "date": "2026-11-11",
+      "name": "Minimum number of platforms required for a railway",
+      "step": 12
+    },
+    {
+      "date": "2026-11-11",
+      "name": "Job Sequencing Problem",
       "step": 12
     }
   ]
