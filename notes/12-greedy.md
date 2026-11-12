@@ -20,3 +20,10 @@ start from end, see if each position can reach the target, update target to reac
 
 - make sure logic works for n=1
 - TC O(n), SC O(1)
+
+## Shortest Job First
+
+Just like OS scheduling, use a min-priority queue to pick the shortest job from available ones, and handle idle time.
+
+- Remember to handle CPU idle time if no jobs are ready.
+- TC O(N log N), SC O(N)
