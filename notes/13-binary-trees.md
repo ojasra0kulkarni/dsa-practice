@@ -6,3 +6,10 @@ This is the basic way to set up a binary tree node, used recursion for a simple 
 
 - always handle null pointers for children
 - TC O(N), SC O(H)
+
+## Preorder Traversal of Binary Tree
+
+Just follow the definition: root, then left subtree, then right subtree. Base case is a null node.
+
+- Remember the base case for recursion, if node is null just return.
+- TC O(N), SC O(H)
