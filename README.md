@@ -3,7 +3,7 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**226 / 403 solved (56.1%)**
+**238 / 403 solved (59.1%)**
 
 ## Progress by step
 
@@ -18,8 +18,8 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 | 09 | Stacks and Queues | 30/30 | `██████████████████` |
 | 10 | Sliding Window and Two Pointer | 12/12 | `██████████████████` |
 | 11 | Heaps | 17/17 | `██████████████████` |
-| 12 | Greedy Algorithms | 7/15 | `████████░░░░░░░░░░` |
-| 13 | Binary Trees | 0/35 | `░░░░░░░░░░░░░░░░░░` |
+| 12 | Greedy Algorithms | 15/15 | `██████████████████` |
+| 13 | Binary Trees | 4/35 | `██░░░░░░░░░░░░░░░░` |
 | 14 | Binary Search Trees | 0/16 | `░░░░░░░░░░░░░░░░░░` |
 | 15 | Graphs | 0/50 | `░░░░░░░░░░░░░░░░░░` |
 | 16 | Dynamic Programming | 0/53 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,18 +28,18 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
-- `2026-11-10` — Jump Game
-- `2026-11-10` — Valid Parenthesis String
-- `2026-11-09` — Lemonade Change
-- `2026-11-08` — N meetings in one room
-- `2026-11-08` — Greedy algorithm to find minimum number of coins
-- `2026-11-08` — Fractional Knapsack Problem
-- `2026-11-08` — Assign Cookies
-- `2026-11-07` — K most frequent elements
-- `2026-11-07` — Find Median from Data Stream
-- `2026-11-07` — Maximum Sum Combination
-- `2026-11-06` — Kth largest element in a stream of running integers
-- `2026-11-06` — Connect n ropes with minimal cost
+- `2026-11-14` — Postorder Traversal of Binary Tree
+- `2026-11-14` — Inorder Traversal of Binary Tree
+- `2026-11-14` — Preorder Traversal of Binary Tree
+- `2026-11-14` — Binary Tree Representation in C++
+- `2026-11-14` — Non-overlapping Intervals
+- `2026-11-13` — Merge Intervals
+- `2026-11-13` — Insert Interval
+- `2026-11-12` — Shortest Job First
+- `2026-11-12` — Candy
+- `2026-11-11` — Job Sequencing Problem
+- `2026-11-11` — Minimum number of platforms required for a railway
+- `2026-11-11` — Jump Game II
 
 ## Layout
 
