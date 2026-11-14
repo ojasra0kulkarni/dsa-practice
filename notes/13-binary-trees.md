@@ -20,3 +20,10 @@ standard recursive way to do inorder, left-root-right
 
 - handle empty tree (null root)
 - TC O(N), SC O(H)
+
+## Postorder Traversal of Binary Tree
+
+Iterative postorder is a bit tricky, ended up using two stacks to manage the order. One stack helps reverse processing.
+
+- Remember to push left child then right child onto the first stack.
+- TC O(N), SC O(N)
