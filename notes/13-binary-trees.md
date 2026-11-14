@@ -13,3 +13,10 @@ Just follow the definition: root, then left subtree, then right subtree. Base ca
 
 - Remember the base case for recursion, if node is null just return.
 - TC O(N), SC O(H)
+
+## Inorder Traversal of Binary Tree
+
+standard recursive way to do inorder, left-root-right
+
+- handle empty tree (null root)
+- TC O(N), SC O(H)
