@@ -27,3 +27,10 @@ Just like OS scheduling, use a min-priority queue to pick the shortest job from 
 
 - Remember to handle CPU idle time if no jobs are ready.
 - TC O(N log N), SC O(N)
+
+## Non-overlapping Intervals
+
+Sort intervals by end times. Iterate and pick the next non-overlapping interval. Count how many get skipped.
+
+- If intervals overlap, increment count and keep interval with smallest end time.
+- TC O(N log N), SC O(1)
