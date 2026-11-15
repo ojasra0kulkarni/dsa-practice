@@ -27,3 +27,10 @@ Iterative postorder is a bit tricky, ended up using two stacks to manage the ord
 
 - Remember to push left child then right child onto the first stack.
 - TC O(N), SC O(N)
+
+## Level order Traversal
+
+Standard BFS with a queue. Remember to grab the queue size each iteration to split levels.
+
+- Need to process nodes for current level by iterating 'sz' times before adding children, not just popping all.
+- TC O(N), SC O(N)
