@@ -34,3 +34,10 @@ Standard BFS with a queue. Remember to grab the queue size each iteration to spl
 
 - Need to process nodes for current level by iterating 'sz' times before adding children, not just popping all.
 - TC O(N), SC O(N)
+
+## Iterative Inorder Traversal of Binary Tree
+
+Use a stack to simulate recursion. Keep pushing left children onto the stack until null, then pop, process, and go right.
+
+- The loop condition needs to check both current node and stack to handle all cases.
+- TC O(N), SC O(H)
