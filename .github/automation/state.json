@@ -240,17 +240,13 @@
     237,
     238,
     239,
-    240
+    240,
+    241
   ],
   "revisits": {},
-  "last_session_day": "2026-11-15",
-  "day_number": 105,
+  "last_session_day": "2026-11-16",
+  "day_number": 106,
   "recent": [
-    {
-      "date": "2026-11-01",
-      "name": "Minimum Window Substring",
-      "step": 10
-    },
     {
       "date": "2026-11-01",
       "name": "Minimum Window Subsequence",
@@ -444,6 +440,11 @@
     {
       "date": "2026-11-15",
       "name": "Iterative Inorder Traversal of Binary Tree",
+      "step": 13
+    },
+    {
+      "date": "2026-11-16",
+      "name": "Postorder Traversal of Binary Tree using 2 stacks",
       "step": 13
     }
   ]
