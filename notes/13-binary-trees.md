@@ -48,3 +48,10 @@ Postorder with one stack is tricky; need to use a 'prev' pointer to know if the 
 
 - Remember the 'prev' pointer to prevent re-visiting the right child indefinitely.
 - TC O(N), SC O(H)
+
+## Preorder Inorder and Postorder Traversal in one Traversal
+
+Use a stack to manage nodes and their visit states. Bump the state and re-push the node; push children with state 1 to process them first.
+
+- Order of pushes to stack matters to maintain correct traversal sequence.
+- TC O(N), SC O(N)
