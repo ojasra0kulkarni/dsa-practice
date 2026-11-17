@@ -41,3 +41,10 @@ Use a stack to simulate recursion. Keep pushing left children onto the stack unt
 
 - The loop condition needs to check both current node and stack to handle all cases.
 - TC O(N), SC O(H)
+
+## Postorder Traversal of Binary Tree using 1 stack
+
+Postorder with one stack is tricky; need to use a 'prev' pointer to know if the right child has been processed already.
+
+- Remember the 'prev' pointer to prevent re-visiting the right child indefinitely.
+- TC O(N), SC O(H)
