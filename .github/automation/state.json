@@ -243,22 +243,14 @@
     240,
     241,
     242,
-    243
+    243,
+    247,
+    249
   ],
   "revisits": {},
-  "last_session_day": "2026-11-17",
-  "day_number": 107,
+  "last_session_day": "2026-11-18",
+  "day_number": 108,
   "recent": [
-    {
-      "date": "2026-11-01",
-      "name": "Check if an array represents a min-heap or not",
-      "step": 11
-    },
-    {
-      "date": "2026-11-02",
-      "name": "Introduction to Priority Queues using Binary Heaps",
-      "step": 11
-    },
     {
       "date": "2026-11-03",
       "name": "Min Heap and Max Heap Implementation",
@@ -447,6 +439,16 @@
     {
       "date": "2026-11-17",
       "name": "Preorder Inorder and Postorder Traversal in one Traversal",
+      "step": 13
+    },
+    {
+      "date": "2026-11-18",
+      "name": "Maximum path sum",
+      "step": 13
+    },
+    {
+      "date": "2026-11-18",
+      "name": "Zig Zag Traversal of Binary Tree",
       "step": 13
     }
   ]
