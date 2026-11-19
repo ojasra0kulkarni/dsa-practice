@@ -245,27 +245,15 @@
     242,
     243,
     247,
-    249
+    249,
+    244,
+    245,
+    246
   ],
   "revisits": {},
-  "last_session_day": "2026-11-18",
-  "day_number": 108,
+  "last_session_day": "2026-11-19",
+  "day_number": 109,
   "recent": [
-    {
-      "date": "2026-11-03",
-      "name": "Min Heap and Max Heap Implementation",
-      "step": 11
-    },
-    {
-      "date": "2026-11-03",
-      "name": "Convert Min Heap to Max Heap",
-      "step": 11
-    },
-    {
-      "date": "2026-11-03",
-      "name": "Kth smallest element in an array",
-      "step": 11
-    },
     {
       "date": "2026-11-04",
       "name": "Sort K sorted array",
@@ -449,6 +437,21 @@
     {
       "date": "2026-11-18",
       "name": "Zig Zag Traversal of Binary Tree",
+      "step": 13
+    },
+    {
+      "date": "2026-11-19",
+      "name": "Height of a Binary Tree",
+      "step": 13
+    },
+    {
+      "date": "2026-11-19",
+      "name": "Check if the Binary Tree is height-balanced or not",
+      "step": 13
+    },
+    {
+      "date": "2026-11-19",
+      "name": "Diameter of Binary Tree",
       "step": 13
     }
   ]
