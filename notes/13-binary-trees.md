@@ -55,3 +55,10 @@ Use a stack to manage nodes and their visit states. Bump the state and re-push t
 
 - Order of pushes to stack matters to maintain correct traversal sequence.
 - TC O(N), SC O(N)
+
+## Check if the Binary Tree is height-balanced or not
+
+A recursive DFS function checks height and balance status from bottom up. If any subtree is unbalanced, it flags it up.
+
+- Return -1 from the recursive function to signal an unbalanced subtree.
+- TC O(N), SC O(H)
