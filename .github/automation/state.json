@@ -248,17 +248,13 @@
     249,
     244,
     245,
-    246
+    246,
+    248
   ],
   "revisits": {},
-  "last_session_day": "2026-11-19",
-  "day_number": 109,
+  "last_session_day": "2026-11-20",
+  "day_number": 110,
   "recent": [
-    {
-      "date": "2026-11-04",
-      "name": "Sort K sorted array",
-      "step": 11
-    },
     {
       "date": "2026-11-04",
       "name": "Replace each array element by its corresponding rank",
@@ -452,6 +448,11 @@
     {
       "date": "2026-11-19",
       "name": "Diameter of Binary Tree",
+      "step": 13
+    },
+    {
+      "date": "2026-11-20",
+      "name": "Check if two trees are identical or not",
       "step": 13
     }
   ]

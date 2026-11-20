@@ -3,7 +3,7 @@
 Working through [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) in C++.
 One folder per step, one file per problem. Nothing fancy — just keeping myself honest.
 
-**249 / 403 solved (61.8%)**
+**250 / 403 solved (62.0%)**
 
 ## Progress by step
 
@@ -19,7 +19,7 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 | 10 | Sliding Window and Two Pointer | 12/12 | `██████████████████` |
 | 11 | Heaps | 17/17 | `██████████████████` |
 | 12 | Greedy Algorithms | 15/15 | `██████████████████` |
-| 13 | Binary Trees | 15/35 | `████████░░░░░░░░░░` |
+| 13 | Binary Trees | 16/35 | `████████░░░░░░░░░░` |
 | 14 | Binary Search Trees | 0/16 | `░░░░░░░░░░░░░░░░░░` |
 | 15 | Graphs | 0/50 | `░░░░░░░░░░░░░░░░░░` |
 | 16 | Dynamic Programming | 0/53 | `░░░░░░░░░░░░░░░░░░` |
@@ -28,6 +28,7 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 
 ## Recently solved
 
+- `2026-11-20` — Check if two trees are identical or not
 - `2026-11-19` — Diameter of Binary Tree
 - `2026-11-19` — Check if the Binary Tree is height-balanced or not
 - `2026-11-19` — Height of a Binary Tree
@@ -39,7 +40,6 @@ One folder per step, one file per problem. Nothing fancy — just keeping myself
 - `2026-11-15` — Iterative Inorder Traversal of Binary Tree
 - `2026-11-15` — Iterative Preorder Traversal of Binary Tree
 - `2026-11-15` — Level order Traversal
-- `2026-11-14` — Postorder Traversal of Binary Tree
 
 ## Layout
 
