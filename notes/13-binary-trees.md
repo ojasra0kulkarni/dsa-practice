@@ -62,3 +62,10 @@ A recursive DFS function checks height and balance status from bottom up. If any
 
 - Return -1 from the recursive function to signal an unbalanced subtree.
 - TC O(N), SC O(H)
+
+## Check if two trees are identical or not
+
+Simple recursion, just check if current nodes match and then recurse on their left and right children. Handle nulls carefully.
+
+- Missing any of the null checks can lead to segfaults or incorrect results.
+- TC O(min(N1, N2)), SC O(H)
