@@ -46,3 +46,5 @@ public:
         return ans;
     }
 };
+
+// edge case: empty input handled above
