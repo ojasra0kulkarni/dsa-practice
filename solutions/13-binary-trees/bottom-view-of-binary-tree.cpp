@@ -56,3 +56,5 @@ int main() {
 
     return 0;
 }
+
+// edge case: empty input handled above
