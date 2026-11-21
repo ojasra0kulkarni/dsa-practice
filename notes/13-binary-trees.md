@@ -69,3 +69,10 @@ Simple recursion, just check if current nodes match and then recurse on their le
 
 - Missing any of the null checks can lead to segfaults or incorrect results.
 - TC O(min(N1, N2)), SC O(H)
+
+## Bottom View of Binary Tree
+
+Used BFS to traverse level by level. Map stores horizontal distance to node value; updating it on each visit ensures the deepest node for that distance is kept.
+
+- Using a map automatically sorts horizontal distances and overwrites ensure bottom-most node.
+- TC O(N log K), SC O(N)
