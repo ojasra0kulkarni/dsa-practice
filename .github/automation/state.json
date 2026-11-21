@@ -249,42 +249,18 @@
     244,
     245,
     246,
-    248
+    248,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255
   ],
   "revisits": {},
-  "last_session_day": "2026-11-20",
-  "day_number": 110,
+  "last_session_day": "2026-11-21",
+  "day_number": 111,
   "recent": [
-    {
-      "date": "2026-11-04",
-      "name": "Replace each array element by its corresponding rank",
-      "step": 11
-    },
-    {
-      "date": "2026-11-05",
-      "name": "Task Scheduler",
-      "step": 11
-    },
-    {
-      "date": "2026-11-05",
-      "name": "Hands of Straights",
-      "step": 11
-    },
-    {
-      "date": "2026-11-06",
-      "name": "Design Twitter",
-      "step": 11
-    },
-    {
-      "date": "2026-11-06",
-      "name": "Connect n ropes with minimal cost",
-      "step": 11
-    },
-    {
-      "date": "2026-11-06",
-      "name": "Kth largest element in a stream of running integers",
-      "step": 11
-    },
     {
       "date": "2026-11-07",
       "name": "Maximum Sum Combination",
@@ -453,6 +429,36 @@
     {
       "date": "2026-11-20",
       "name": "Check if two trees are identical or not",
+      "step": 13
+    },
+    {
+      "date": "2026-11-21",
+      "name": "Boundary Traversal of Binary Tree",
+      "step": 13
+    },
+    {
+      "date": "2026-11-21",
+      "name": "Vertical Order Traversal of Binary Tree",
+      "step": 13
+    },
+    {
+      "date": "2026-11-21",
+      "name": "Top View of Binary Tree",
+      "step": 13
+    },
+    {
+      "date": "2026-11-21",
+      "name": "Bottom View of Binary Tree",
+      "step": 13
+    },
+    {
+      "date": "2026-11-21",
+      "name": "Right and Left View of Binary Tree",
+      "step": 13
+    },
+    {
+      "date": "2026-11-21",
+      "name": "Symmetric Binary Tree",
       "step": 13
     }
   ]
