@@ -76,3 +76,10 @@ Used BFS to traverse level by level. Map stores horizontal distance to node valu
 
 - Using a map automatically sorts horizontal distances and overwrites ensure bottom-most node.
 - TC O(N log K), SC O(N)
+
+## Construct Binary Tree from inorder and preorder
+
+Just recursively build left and right subtrees. Map inorder values to indices for fast lookup.
+
+- Careful with the `pre` array indices for the right subtree start.
+- TC O(N), SC O(N)
