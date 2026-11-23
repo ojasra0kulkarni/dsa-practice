@@ -83,3 +83,10 @@ Just recursively build left and right subtrees. Map inorder values to indices fo
 
 - Careful with the `pre` array indices for the right subtree start.
 - TC O(N), SC O(N)
+
+## Maximum width of a Binary Tree
+
+Just BFS, but need to track indices for width. Normalize them each level or they blow up, remember to use long long.
+
+- Indices can grow very large in a sparse tree, use `long long` and normalize indices at each level to prevent overflow.
+- TC O(N), SC O(W)

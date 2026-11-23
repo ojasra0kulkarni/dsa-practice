@@ -259,17 +259,13 @@
     256,
     257,
     263,
-    266
+    266,
+    258
   ],
   "revisits": {},
-  "last_session_day": "2026-11-22",
-  "day_number": 112,
+  "last_session_day": "2026-11-23",
+  "day_number": 113,
   "recent": [
-    {
-      "date": "2026-11-08",
-      "name": "Fractional Knapsack Problem",
-      "step": 12
-    },
     {
       "date": "2026-11-08",
       "name": "Greedy algorithm to find minimum number of coins",
@@ -463,6 +459,11 @@
     {
       "date": "2026-11-22",
       "name": "Morris Preorder Traversal of a Binary Tree",
+      "step": 13
+    },
+    {
+      "date": "2026-11-23",
+      "name": "Maximum width of a Binary Tree",
       "step": 13
     }
   ]
