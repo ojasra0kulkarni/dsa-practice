@@ -260,17 +260,13 @@
     257,
     263,
     266,
-    258
+    258,
+    259
   ],
   "revisits": {},
-  "last_session_day": "2026-11-23",
-  "day_number": 113,
+  "last_session_day": "2026-11-24",
+  "day_number": 114,
   "recent": [
-    {
-      "date": "2026-11-08",
-      "name": "Greedy algorithm to find minimum number of coins",
-      "step": 12
-    },
     {
       "date": "2026-11-08",
       "name": "N meetings in one room",
@@ -464,6 +460,11 @@
     {
       "date": "2026-11-23",
       "name": "Maximum width of a Binary Tree",
+      "step": 13
+    },
+    {
+      "date": "2026-11-24",
+      "name": "Check for Children Sum Property",
       "step": 13
     }
   ]
