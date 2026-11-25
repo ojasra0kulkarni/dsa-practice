@@ -104,3 +104,10 @@ Use postorder's last element as root, find it in inorder to split subtrees. Recu
 
 - Off-by-one indices for postorder array splits.
 - TC O(N), SC O(N)
+
+## Count total Nodes in a COMPLETE Binary Tree
+
+A complete binary tree has certain properties we can exploit for quick height checks. Recursively count nodes by finding a perfect subtree at each step.
+
+- The height function only traverses left, and 2^H for perfect subtree count.
+- TC O((log N)^2), SC O(log N)

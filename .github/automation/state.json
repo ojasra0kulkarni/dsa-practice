@@ -261,32 +261,16 @@
     263,
     266,
     258,
-    259
+    259,
+    260,
+    261,
+    264,
+    262
   ],
   "revisits": {},
-  "last_session_day": "2026-11-24",
-  "day_number": 114,
+  "last_session_day": "2026-11-25",
+  "day_number": 115,
   "recent": [
-    {
-      "date": "2026-11-08",
-      "name": "N meetings in one room",
-      "step": 12
-    },
-    {
-      "date": "2026-11-09",
-      "name": "Lemonade Change",
-      "step": 12
-    },
-    {
-      "date": "2026-11-10",
-      "name": "Valid Parenthesis String",
-      "step": 12
-    },
-    {
-      "date": "2026-11-10",
-      "name": "Jump Game",
-      "step": 12
-    },
     {
       "date": "2026-11-11",
       "name": "Jump Game II",
@@ -465,6 +449,26 @@
     {
       "date": "2026-11-24",
       "name": "Check for Children Sum Property",
+      "step": 13
+    },
+    {
+      "date": "2026-11-25",
+      "name": "Print all the Nodes at a distance of K in a Binary Tree",
+      "step": 13
+    },
+    {
+      "date": "2026-11-25",
+      "name": "Minimum time taken to BURN the Binary Tree from a Node",
+      "step": 13
+    },
+    {
+      "date": "2026-11-25",
+      "name": "Construct Binary Tree from postorder and inorder",
+      "step": 13
+    },
+    {
+      "date": "2026-11-25",
+      "name": "Count total Nodes in a COMPLETE Binary Tree",
       "step": 13
     }
   ]
