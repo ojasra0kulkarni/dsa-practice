@@ -36,3 +36,5 @@ public:
         return build(in, 0, n-1, post, 0, n-1);
     }
 };
+
+// edge case: empty input handled above
