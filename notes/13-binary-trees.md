@@ -97,3 +97,10 @@ First find the target node and map all parents using DFS. Then do a BFS starting
 
 - Don't forget to mark parent nodes as visited in BFS to avoid cycles.
 - TC O(N), SC O(N)
+
+## Construct Binary Tree from postorder and inorder
+
+Use postorder's last element as root, find it in inorder to split subtrees. Recursively build left and right parts.
+
+- Off-by-one indices for postorder array splits.
+- TC O(N), SC O(N)
