@@ -90,3 +90,10 @@ Just BFS, but need to track indices for width. Normalize them each level or they
 
 - Indices can grow very large in a sparse tree, use `long long` and normalize indices at each level to prevent overflow.
 - TC O(N), SC O(W)
+
+## Minimum time taken to BURN the Binary Tree from a Node
+
+First find the target node and map all parents using DFS. Then do a BFS starting from the target, spreading to children and parent.
+
+- Don't forget to mark parent nodes as visited in BFS to avoid cycles.
+- TC O(N), SC O(N)
