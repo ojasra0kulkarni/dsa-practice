@@ -265,17 +265,13 @@
     260,
     261,
     264,
-    262
+    262,
+    265
   ],
   "revisits": {},
-  "last_session_day": "2026-11-25",
-  "day_number": 115,
+  "last_session_day": "2026-11-26",
+  "day_number": 116,
   "recent": [
-    {
-      "date": "2026-11-11",
-      "name": "Jump Game II",
-      "step": 12
-    },
     {
       "date": "2026-11-11",
       "name": "Minimum number of platforms required for a railway",
@@ -469,6 +465,11 @@
     {
       "date": "2026-11-25",
       "name": "Count total Nodes in a COMPLETE Binary Tree",
+      "step": 13
+    },
+    {
+      "date": "2026-11-26",
+      "name": "Serialize and deserialize Binary Tree",
       "step": 13
     }
   ]
