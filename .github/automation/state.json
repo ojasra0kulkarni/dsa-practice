@@ -266,22 +266,14 @@
     261,
     264,
     262,
-    265
+    265,
+    267,
+    269
   ],
   "revisits": {},
-  "last_session_day": "2026-11-26",
-  "day_number": 116,
+  "last_session_day": "2026-11-27",
+  "day_number": 117,
   "recent": [
-    {
-      "date": "2026-11-11",
-      "name": "Minimum number of platforms required for a railway",
-      "step": 12
-    },
-    {
-      "date": "2026-11-11",
-      "name": "Job Sequencing Problem",
-      "step": 12
-    },
     {
       "date": "2026-11-12",
       "name": "Candy",
@@ -471,6 +463,16 @@
       "date": "2026-11-26",
       "name": "Serialize and deserialize Binary Tree",
       "step": 13
+    },
+    {
+      "date": "2026-11-27",
+      "name": "Morris Inorder Traversal of a Binary Tree",
+      "step": 13
+    },
+    {
+      "date": "2026-11-27",
+      "name": "Introduction to Binary Search Tree",
+      "step": 14
     }
   ]
 }
