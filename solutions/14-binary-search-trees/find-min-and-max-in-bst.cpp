@@ -32,3 +32,5 @@ public:
         return curr->val;
     }
 };
+
+// note to self: revisit the hashmap variant
