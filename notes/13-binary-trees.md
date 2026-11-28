@@ -111,3 +111,10 @@ A complete binary tree has certain properties we can exploit for quick height ch
 
 - The height function only traverses left, and 2^H for perfect subtree count.
 - TC O((log N)^2), SC O(log N)
+
+## Flatten Binary Tree to Linked List
+
+Recursive DFS, process right subtree then left, then link current node to `prev` for the flattened list.
+
+- Need to traverse in reverse pre-order (right -> left -> root) to build the list correctly.
+- TC O(N), SC O(H)
